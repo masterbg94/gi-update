@@ -1,1210 +1,1272 @@
 [
   {
     "name": "slika1.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika1.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika1.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika1.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika1.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika1.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika1.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika1.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika1.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika1.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika1.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika1.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika1.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika1.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika1.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#79735f"
   },
   {
     "name": "slika2.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika2.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika2.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika2.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika2.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika2.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika2.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika2.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika2.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika2.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika2.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika2.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika2.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika2.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika2.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#6c6f64"
   },
   {
     "name": "slika3.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika3.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika3.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika3.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika3.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika3.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika3.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika3.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika3.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika3.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika3.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika3.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika3.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika3.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika3.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#706851"
   },
   {
     "name": "slika4.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika4.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika4.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika4.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika4.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika4.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika4.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika4.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika4.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika4.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika4.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika4.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika4.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika4.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika4.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#7b725d"
   },
   {
     "name": "slika5.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika5.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika5.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika5.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika5.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika5.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika5.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika5.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika5.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika5.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika5.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika5.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika5.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika5.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika5.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#78725f"
   },
   {
     "name": "slika6.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika6.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika6.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika6.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika6.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika6.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika6.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika6.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika6.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika6.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika6.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika6.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika6.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika6.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika6.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#78725f"
   },
   {
     "name": "slika7.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika7.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika7.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika7.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika7.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika7.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika7.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika7.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika7.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika7.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika7.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika7.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika7.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika7.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika7.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika8.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika8.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika8.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika8.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika8.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika8.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika8.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika8.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika8.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika8.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika8.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika8.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika8.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika8.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika8.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika9.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika9.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika9.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika9.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika9.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika9.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika9.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika9.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika9.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika9.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika9.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika9.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika9.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika9.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika9.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika10.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika10.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika10.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika10.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika10.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika10.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika10.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika10.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika10.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika10.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika10.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika10.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika10.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika10.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika10.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika11.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika11.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika11.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika11.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika11.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika11.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika11.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika11.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika11.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika11.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika11.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika11.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika11.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika11.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika11.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika12.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika12.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika12.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika12.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika12.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika12.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika12.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika12.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika12.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika12.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika12.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika12.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika12.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika12.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika12.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika13.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika13.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika13.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika13.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika13.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika13.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika13.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika13.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika13.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika13.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika13.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika13.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika13.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika13.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika13.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika14.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika14.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika14.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika14.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika14.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika14.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika14.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika14.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika14.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika14.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika14.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika14.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika14.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika14.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika14.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika15.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika15.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika15.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika15.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika15.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika15.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika15.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika15.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika15.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika15.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika15.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika15.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika15.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika15.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika15.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika16.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika16.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika16.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika16.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika16.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika16.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika16.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika16.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika16.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika16.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika16.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika16.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika16.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika16.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika16.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika17.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika17.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika17.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika17.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika17.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika17.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika17.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika17.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika17.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika17.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika17.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika17.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika17.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika17.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika17.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika18.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika18.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika18.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika18.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika18.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika18.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika18.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika18.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika18.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika18.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika18.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika18.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika18.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika18.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika18.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika19.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika19.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika19.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika19.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika19.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika19.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika19.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika19.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika19.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika19.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika19.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika19.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika19.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika19.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika19.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika20.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika20.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika20.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika20.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika20.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika20.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika20.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika20.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika20.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika20.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika20.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika20.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika20.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika20.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika20.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika21.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika21.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika21.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika21.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika21.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika21.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika21.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika21.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika21.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika21.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika21.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika21.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika21.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika21.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika21.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika22.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika22.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika22.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika22.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika22.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika22.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika22.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika22.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika22.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika22.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika22.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika22.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika22.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika22.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika22.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika23.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika23.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika23.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika23.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika23.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika23.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika23.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika23.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika23.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika23.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika23.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika23.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika23.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika23.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika23.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika24.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika24.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika24.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika24.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika24.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika24.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika24.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika24.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika24.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika24.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika24.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika24.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika24.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika24.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika24.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika25.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika25.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika25.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika25.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika25.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika25.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika25.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika25.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika25.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika25.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika25.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika25.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika25.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika25.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika25.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika26.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika26.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika26.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika26.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika26.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika26.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika26.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika26.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika26.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika26.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika26.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika26.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika26.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika26.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika26.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika27.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika27.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika27.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika27.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika27.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika27.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika27.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika27.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika27.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika27.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika27.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika27.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika27.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika27.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika27.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika28.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika28.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika28.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika28.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika28.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika28.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika28.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika28.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika28.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika28.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika28.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika28.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika28.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika28.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika28.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika29.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika29.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika29.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika29.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika29.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika29.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika29.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika29.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika29.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika29.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika29.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika29.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika29.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika29.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika29.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika30.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika30.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika30.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika30.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika30.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika30.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika30.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika30.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika30.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika30.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika30.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika30.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika30.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika30.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika30.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   },
   {
     "name": "slika31.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery/preview_xxs/slika31.png",
-      "width": 469,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery/preview_xs/slika31.png",
-      "width": 960,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery/preview_s/slika31.png",
-      "width": 1350,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery/preview_m/slika31.png",
-      "width": 2000,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery/preview_l/slika31.png",
-      "width": 2700,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery/preview_xl/slika31.png",
-      "width": 3600,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery/raw/slika31.png",
-      "width": 1500,
-      "height": 1200
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery/preview_xxs/slika31.png",
+        "width": 469,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery/preview_xs/slika31.png",
+        "width": 960,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery/preview_s/slika31.png",
+        "width": 1350,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery/preview_m/slika31.png",
+        "width": 2000,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery/preview_l/slika31.png",
+        "width": 2700,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery/preview_xl/slika31.png",
+        "width": 3600,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery/raw/slika31.png",
+        "width": 1500,
+        "height": 1200
+      }
     },
     "dominantColor": "#65624d"
   }

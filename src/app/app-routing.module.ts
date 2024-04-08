@@ -10,7 +10,6 @@ const routes: Routes = [
     path: 'kontakt',
     loadChildren: () => import('./modules/contact/contact.module').then(m => m.ContactModule),
   },
-  /*
   {
     path: 'galerija/leonardo6',
     loadChildren: () => import('./modules/gallery/gallery.module').then(m => m.GalleryModule),
@@ -23,6 +22,7 @@ const routes: Routes = [
     path: 'galerija/leonardo8',
     loadChildren: () => import('./modules/gallery3/gallery3.module').then(m => m.Gallery3Module),
   },
+  /*
   {
     path: 'objekat/:id',
     loadChildren: () => import('./modules/objekti/objekti.module').then(m => m.ObjektiModule),
