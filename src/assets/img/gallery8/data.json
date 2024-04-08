@@ -1,313 +1,329 @@
 [
   {
     "name": "leonardo8-1.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-1.png",
-      "width": 610,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-1.png",
-      "width": 1250,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-1.png",
-      "width": 1757,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-1.png",
-      "width": 2604,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-1.png",
-      "width": 3515,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-1.png",
-      "width": 4686,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-1.png",
-      "width": 3160,
-      "height": 1942
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-1.png",
+        "width": 610,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-1.png",
+        "width": 1250,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-1.png",
+        "width": 1757,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-1.png",
+        "width": 2604,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-1.png",
+        "width": 3515,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-1.png",
+        "width": 4686,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-1.png",
+        "width": 3160,
+        "height": 1942
+      }
     },
     "dominantColor": "#929a9d"
   },
   {
     "name": "leonardo8-2.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-2.png",
-      "width": 575,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-2.png",
-      "width": 1178,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-2.png",
-      "width": 1657,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-2.png",
-      "width": 2454,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-2.png",
-      "width": 3313,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-2.png",
-      "width": 4418,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-2.png",
-      "width": 3160,
-      "height": 2060
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-2.png",
+        "width": 575,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-2.png",
+        "width": 1178,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-2.png",
+        "width": 1657,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-2.png",
+        "width": 2454,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-2.png",
+        "width": 3313,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-2.png",
+        "width": 4418,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-2.png",
+        "width": 3160,
+        "height": 2060
+      }
     },
     "dominantColor": "#9d9e9f"
   },
   {
     "name": "leonardo8-3.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-3.png",
-      "width": 575,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-3.png",
-      "width": 1177,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-3.png",
-      "width": 1655,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-3.png",
-      "width": 2452,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-3.png",
-      "width": 3310,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-3.png",
-      "width": 4414,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-3.png",
-      "width": 3160,
-      "height": 2062
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-3.png",
+        "width": 575,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-3.png",
+        "width": 1177,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-3.png",
+        "width": 1655,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-3.png",
+        "width": 2452,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-3.png",
+        "width": 3310,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-3.png",
+        "width": 4414,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-3.png",
+        "width": 3160,
+        "height": 2062
+      }
     },
     "dominantColor": "#7a8083"
   },
   {
     "name": "leonardo8-4.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-4.png",
-      "width": 573,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-4.png",
-      "width": 1174,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-4.png",
-      "width": 1651,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-4.png",
-      "width": 2447,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-4.png",
-      "width": 3303,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-4.png",
-      "width": 4404,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-4.png",
-      "width": 3156,
-      "height": 2064
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-4.png",
+        "width": 573,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-4.png",
+        "width": 1174,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-4.png",
+        "width": 1651,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-4.png",
+        "width": 2447,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-4.png",
+        "width": 3303,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-4.png",
+        "width": 4404,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-4.png",
+        "width": 3156,
+        "height": 2064
+      }
     },
     "dominantColor": "#4c4740"
   },
   {
     "name": "leonardo8-5.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-5.png",
-      "width": 576,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-5.png",
-      "width": 1179,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-5.png",
-      "width": 1658,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-5.png",
-      "width": 2456,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-5.png",
-      "width": 3316,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-5.png",
-      "width": 4421,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-5.png",
-      "width": 3156,
-      "height": 2056
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-5.png",
+        "width": 576,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-5.png",
+        "width": 1179,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-5.png",
+        "width": 1658,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-5.png",
+        "width": 2456,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-5.png",
+        "width": 3316,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-5.png",
+        "width": 4421,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-5.png",
+        "width": 3156,
+        "height": 2056
+      }
     },
     "dominantColor": "#73736c"
   },
   {
     "name": "leonardo8-6.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-6.png",
-      "width": 572,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-6.png",
-      "width": 1172,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-6.png",
-      "width": 1648,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-6.png",
-      "width": 2441,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-6.png",
-      "width": 3295,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-6.png",
-      "width": 4394,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-6.png",
-      "width": 3152,
-      "height": 2066
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-6.png",
+        "width": 572,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-6.png",
+        "width": 1172,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-6.png",
+        "width": 1648,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-6.png",
+        "width": 2441,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-6.png",
+        "width": 3295,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-6.png",
+        "width": 4394,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-6.png",
+        "width": 3152,
+        "height": 2066
+      }
     },
     "dominantColor": "#45413b"
   },
   {
     "name": "leonardo8-7.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-7.png",
-      "width": 574,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-7.png",
-      "width": 1175,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-7.png",
-      "width": 1652,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-7.png",
-      "width": 2447,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-7.png",
-      "width": 3304,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-7.png",
-      "width": 4405,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-7.png",
-      "width": 3160,
-      "height": 2066
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-7.png",
+        "width": 574,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-7.png",
+        "width": 1175,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-7.png",
+        "width": 1652,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-7.png",
+        "width": 2447,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-7.png",
+        "width": 3304,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-7.png",
+        "width": 4405,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-7.png",
+        "width": 3160,
+        "height": 2066
+      }
     },
     "dominantColor": "#6f716a"
   },
   {
     "name": "leonardo8-8.png",
-    "preview_xxs": {
-      "path": "assets/img/gallery8/preview_xxs/leonardo8-8.png",
-      "width": 610,
-      "height": 375
-    },
-    "preview_xs": {
-      "path": "assets/img/gallery8/preview_xs/leonardo8-8.png",
-      "width": 1250,
-      "height": 768
-    },
-    "preview_s": {
-      "path": "assets/img/gallery8/preview_s/leonardo8-8.png",
-      "width": 1757,
-      "height": 1080
-    },
-    "preview_m": {
-      "path": "assets/img/gallery8/preview_m/leonardo8-8.png",
-      "width": 2604,
-      "height": 1600
-    },
-    "preview_l": {
-      "path": "assets/img/gallery8/preview_l/leonardo8-8.png",
-      "width": 3515,
-      "height": 2160
-    },
-    "preview_xl": {
-      "path": "assets/img/gallery8/preview_xl/leonardo8-8.png",
-      "width": 4686,
-      "height": 2880
-    },
-    "raw": {
-      "path": "assets/img/gallery8/raw/leonardo8-8.png",
-      "width": 3160,
-      "height": 1942
+    "resolutions": {
+      "preview_xxs": {
+        "path": "assets/img/gallery8/preview_xxs/leonardo8-8.png",
+        "width": 610,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery8/preview_xs/leonardo8-8.png",
+        "width": 1250,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery8/preview_s/leonardo8-8.png",
+        "width": 1757,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery8/preview_m/leonardo8-8.png",
+        "width": 2604,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery8/preview_l/leonardo8-8.png",
+        "width": 3515,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery8/preview_xl/leonardo8-8.png",
+        "width": 4686,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery8/raw/leonardo8-8.png",
+        "width": 3160,
+        "height": 1942
+      }
     },
     "dominantColor": "#929a9d"
   }
