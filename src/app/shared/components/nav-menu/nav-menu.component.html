@@ -1,0 +1,74 @@
+<header class="navbar navbar-light navbar-fixed-top navbar-expand-lg" style="z-index: 20">
+
+	<a class="navbar-brand"  [routerLink]="['/']" (click)="navbarCollapsed = false"><img src="{{logo}}"> </a>
+
+	<button class="navbar-toggler navbar-toggler-right" type="button" (click)="navbarCollapsed = !navbarCollapsed"
+			[attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span
+			[class.navbar-toggler-icon]="!navbarCollapsed"
+			[class.close]="navbarCollapsed"></span>
+	</button>
+
+	<div class="navbar-collapse" [ngbCollapse]="!navbarCollapsed" id="navbarContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">
+				<a  class="nav-link"  role="button" [routerLink]="['/']" (click)="navbarCollapsed = false">{{'HomeLink' | translate }} <i
+					class="fa fa-chevron-right right"
+				></i></a>
+			</li>
+
+			<li class="nav-item d-inline-block"  ngbDropdown #myDrop="ngbDropdown" aria-expanded = false [routerLinkActive]="['active']">
+
+				<a class="nav-link"  role="button" ngbDropdownToggle style="cursor: pointer;user-select: none;"
+				   (click)="clickGarage()"
+				   >{{'ApartmentSale' | translate }}
+					<i
+						class="fa fa-chevron-down right"
+					></i>
+				</a>
+
+				<div ngbDropdownMenu aria-labelledby="dropdownManual" (click)="navbarCollapsed == false" >
+					<button  class="dropdown-item" [routerLink]="['objekat/12']" (click)="navbarCollapsed = false">{{'VillaLeonardo7' | translate}}</button>
+					<button (click)="IsGarage()" class="dropdown-item " [routerLink] = "['/objekat/13']" (click)="navbarCollapsed = false">{{'VillaLeonardo8' | translate}}</button>
+				</div>
+			</li>
+			<li class="nav-item" [routerLinkActive]="['active']">
+				<a class="nav-link" [routerLink]="['/onama']" (click)="navbarCollapsed = false">{{'AboutLink' | translate}}
+					<i
+						class="fa fa-chevron-right right"
+					></i>
+				</a>
+			</li>
+			<li class="nav-item d-inline-block"  ngbDropdown #myDrop="ngbDropdown" >
+				<a class="nav-link"  role="button" ngbDropdownToggle style="cursor: pointer;user-select: none;"
+				   (click)="navbarCollapsed = true">{{'GalleryNav' | translate }}
+					<i
+						class="fa fa-chevron-down"
+					></i>
+				</a>
+				<div ngbDropdownMenu aria-labelledby="dropdownManual" (click)="navbarCollapsed = false">
+					<button class="dropdown-item" [routerLink]="['/galerija/leonardo7']" (click)="navbarCollapsed = false">{{'VillaLeonardo7' | translate}}</button>
+					<button class="dropdown-item " [routerLink] = "['/galerija/leonardo8']" (click)="navbarCollapsed = false">{{'VillaLeonardo8' | translate}}</button>
+				</div>
+			</li>
+			<li class="nav-item" [routerLinkActive]="['active']">
+				<a class="nav-link" [routerLink]="['/kontakt']" (click)="navbarCollapsed = false">{{'ContactLink' | translate }}
+					<i
+						class="fa fa-chevron-right right"
+					></i>
+				</a>
+			</li>
+			<li class="nav-item lng" style="margin-left: 20px">
+				<a class="nav-link lng"  (click)="changeLang(activeLang = 'sr')" [class.activeLang]="activeLang == 'sr'">{{'Languages.Sr' | translate}}</a>
+			</li>
+			<li class="nav-item lng">
+				<a class="nav-link lng"  (click)="changeLang(activeLang = 'en')" [class.activeLang]="activeLang == 'en'" >{{'Languages.En' | translate}}</a>
+			</li>
+			<li class="nav-item lng">
+				<a class="nav-link lng"  (click)="changeLang(activeLang = 'ru')" [class.activeLang]="activeLang == 'ru'">{{'Languages.Rus' | translate}}</a>
+			</li>
+		</ul>
+
+
+	</div>
+</header>

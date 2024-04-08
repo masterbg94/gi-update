@@ -1,0 +1,48 @@
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<h1>{{'EQUIPMENT' | translate}}</h1>
+		<div class="col-sm-8">
+			<app-slim>
+			<div class="description">
+				<ul>
+					<li *ngFor="let equipment of equipment">
+						{{equipment?.list | translate}}
+					</li>
+				</ul>
+			</div>
+			</app-slim>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>{{'Nu' | translate}}</th>
+						<th>{{'Rooms' | translate}}</th>
+						<th>{{'P2' | translate}}(m²)</th>
+						<th>{{'Floor' | translate}}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let room of room ">
+						<td>{{room?.roomNumber}}</td>
+						<td>{{room?.name | translate}}</td>
+						<td>{{room?.area}}</td>
+						<td>{{room?.floor | translate}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-sm-4">
+			<img class="rotate" [src]="'../../../../assets/img/' + apartment?.imgModel + '.png'">
+			<button class="btn btn-gold"
+					[class.sold] ="apartment?.status == 'Prodato'"
+					[class.reserve] ="apartment?.status == 'Rezervisano'"
+					[class.free] = "apartment?.status == 'Slobodno'"
+
+			>{{apartment?.status | translate}}</button>
+			<p>{{'TotalSpace' | translate}}</p>
+			<h5>{{apartment?.area}}m² </h5>
+		</div>
+
+		</div>
+	</div>
+</div>

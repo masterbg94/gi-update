@@ -1,0 +1,9 @@
+<app-header [show]="true" [img]="'../../../assets/img/' + activeBuilding?.pdfCatalogUrl + '.png'"></app-header>
+<app-reserve-apartman [apartment]="apartment" [activeBuilding]="activeBuilding"  [activeFloor]="activeFloor"></app-reserve-apartman>
+<app-apartman-detail-facts  [apartment]="apartment" [activeBuilding]="activeBuilding" [room]="room" [equipment]="equipment"></app-apartman-detail-facts>
+<app-ribbon style="gold"></app-ribbon>
+<app-ribbon style="dark">{{'ApartmentLocation' | translate}}</app-ribbon>
+<div class="container-fluid" style="height: 350px">
+<!--	<app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="activeBuilding.id"></app-google-map>-->
+</div>
+

@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<h2 ><span class="vila">VILA</span><span class="leonardo">LEONARDO</span><span class="iv">{{activeBuilding?.gallery}}</span></h2>
+			<p [innerHtml]="activeBuilding?.description | translate"></p>
+			<button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-info" [routerLink]="'/galerija/leonardo' + activeBuilding?.gallery">
+			<img style="width: 100%;height: auto;" [src]="'../../../../assets/img/' + activeBuilding?.pdfCatalogImage + '.png'">
+				<p class="image text-uppercase">{{'Gallery' | translate | uppercase}} {{activeBuilding?.name}}</p>
+			</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+.block-list {
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 993px){
+	.block-list{
+		max-width: 100%;
+		flex-direction: column;
+	}
+
+}

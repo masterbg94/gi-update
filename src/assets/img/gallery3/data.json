@@ -1,0 +1,999 @@
+[
+    {
+      "name": "slika1.jpg",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika1.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika1.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika1.jpg",
+        "width": 1621,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika1.jpg",
+        "width": 2401,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika1.jpg",
+        "width": 3241,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika1.jpg",
+        "width": 4322,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika1.jpg",
+        "width": 1280,
+        "height": 853
+      },
+      "dominantColor": "#7f8989"
+    },
+    {
+      "name": "slika2.jpg",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika2.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika2.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika2.jpg",
+        "width": 1621,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika2.jpg",
+        "width": 2401,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika2.jpg",
+        "width": 3241,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika2.jpg",
+        "width": 4322,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika2.jpg",
+        "width": 1280,
+        "height": 853
+      },
+      "dominantColor": "#a2a79e"
+    },
+    {
+      "name": "slika3.jpg",
+      "date": "2019:08:05 11:19:06",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika3.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika3.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika3.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika3.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika3.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika3.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika3.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#5f635e"
+    },
+    {
+      "name": "slika4.jpg",
+      "date": "2019:08:05 11:20:16",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika4.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika4.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika4.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika4.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika4.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika4.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika4.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#545651"
+    },
+    {
+      "name": "slika5.jpg",
+      "date": "2019:08:05 11:21:05",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika5.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika5.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika5.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika5.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika5.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika5.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika5.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#807769"
+    },
+    {
+      "name": "slika6.jpg",
+      "date": "2019:08:05 11:21:15",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika6.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika6.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika6.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika6.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika6.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika6.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika6.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#838e87"
+    },
+    {
+      "name": "slika7.jpg",
+      "date": "2019:08:05 11:22:10",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika7.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika7.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika7.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika7.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika7.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika7.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika7.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#9f9478"
+    },
+    {
+      "name": "slika8.jpg",
+      "date": "2019:08:05 11:22:33",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika8.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika8.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika8.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika8.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika8.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika8.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika8.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#968972"
+    },
+    {
+      "name": "slika9.jpg",
+      "date": "2019:08:05 11:23:04",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika9.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika9.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika9.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika9.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika9.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika9.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika9.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#ab9e82"
+    },
+    {
+      "name": "slika10.jpg",
+      "date": "2019:08:05 11:23:45",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika10.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika10.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika10.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika10.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika10.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika10.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika10.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#797a70"
+    },
+    {
+      "name": "slika11.jpg",
+      "date": "2019:08:05 11:24:47",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika11.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika11.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika11.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika11.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika11.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika11.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika11.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#6b716d"
+    },
+    {
+      "name": "slika12.jpg",
+      "date": "2019:08:05 11:28:32",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika12.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika12.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika12.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika12.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika12.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika12.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika12.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#987556"
+    },
+    {
+      "name": "slika13.jpg",
+      "date": "2019:08:05 11:29:33",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika13.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika13.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika13.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika13.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika13.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika13.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika13.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#847555"
+    },
+    {
+      "name": "slika14.jpg",
+      "date": "2019:08:05 11:30:01",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika14.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika14.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika14.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika14.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika14.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika14.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika14.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#9f9784"
+    },
+    {
+      "name": "slika15.jpg",
+      "date": "2019:08:05 11:30:34",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika15.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika15.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika15.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika15.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika15.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika15.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika15.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#958b72"
+    },
+    {
+      "name": "slika16.jpg",
+      "date": "2019:08:05 11:37:29",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika16.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika16.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika16.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika16.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika16.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika16.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika16.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#978e7a"
+    },
+    {
+      "name": "slika17.jpg",
+      "date": "2019:08:05 11:37:37",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika17.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika17.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika17.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika17.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika17.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika17.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika17.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#6e6e61"
+    },
+    {
+      "name": "slika18.jpg",
+      "date": "2019:08:05 11:38:07",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika18.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika18.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika18.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika18.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika18.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika18.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika18.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#819095"
+    },
+    {
+      "name": "slika19.jpg",
+      "date": "2019:08:05 11:38:32",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika19.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika9.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika19.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika19.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika19.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika19.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika19.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#657071"
+    },
+    {
+      "name": "slika20.jpg",
+      "date": "2019:08:05 11:39:18",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika20.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika20.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika20.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika20.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika20.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika20.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika20.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#74807a"
+    },
+    {
+      "name": "slika21.jpg",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika21.jpg",
+        "width": 250,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika21.jpg",
+        "width": 512,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika21.jpg",
+        "width": 720,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika21.jpg",
+        "width": 1066,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika21.jpg",
+        "width": 1439,
+        "height": 2159
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika21.jpg",
+        "width": 1919,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika21.jpg",
+        "width": 853,
+        "height": 1280
+      },
+      "dominantColor": "#585c59"
+    },
+    {
+      "name": "slika22.jpg",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika22.jpg",
+        "width": 250,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika22.jpg",
+        "width": 512,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika22.jpg",
+        "width": 720,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika22.jpg",
+        "width": 1067,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika22.jpg",
+        "width": 1440,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika22.jpg",
+        "width": 1920,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika22.jpg",
+        "width": 3840,
+        "height": 5760
+      },
+      "dominantColor": "#797a70"
+    },
+    {
+      "name": "slika23.jpg",
+      "date": "2019:08:05 11:37:18",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika23.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika23.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika23.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika23.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika23.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika23.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika23.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#847358"
+    },
+    {
+      "name": "slika24.jpg",
+      "date": "2019:08:05 11:40:37",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika24.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika24.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika24.jpg",
+        "width": 1620,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika24.jpg",
+        "width": 2400,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika24.jpg",
+        "width": 3240,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika24.jpg",
+        "width": 4320,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika24.jpg",
+        "width": 5760,
+        "height": 3840
+      },
+      "dominantColor": "#768183"
+    },
+    {
+      "name": "slika25.jpg",
+      "preview_xxs": {
+        "path": "assets/img/gallery3/preview_xxs/slika25.jpg",
+        "width": 563,
+        "height": 375
+      },
+      "preview_xs": {
+        "path": "assets/img/gallery3/preview_xs/slika25.jpg",
+        "width": 1152,
+        "height": 768
+      },
+      "preview_s": {
+        "path": "assets/img/gallery3/preview_s/slika25.jpg",
+        "width": 1621,
+        "height": 1080
+      },
+      "preview_m": {
+        "path": "assets/img/gallery3/preview_m/slika25.jpg",
+        "width": 2401,
+        "height": 1600
+      },
+      "preview_l": {
+        "path": "assets/img/gallery3/preview_l/slika25.jpg",
+        "width": 3241,
+        "height": 2160
+      },
+      "preview_xl": {
+        "path": "assets/img/gallery3/preview_xl/slika25.jpg",
+        "width": 4322,
+        "height": 2880
+      },
+      "raw": {
+        "path": "assets/img/gallery3/raw/slika25.jpg",
+        "width": 1280,
+        "height": 853
+      },
+      "dominantColor": "#909085"
+    }
+  ]
+  
+  

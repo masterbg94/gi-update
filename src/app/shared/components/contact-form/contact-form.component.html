@@ -1,0 +1,60 @@
+<div class="container-fluid">
+	<div class="container">
+		<h1>{{'Contact' | translate}}</h1>
+		<hr>
+		<p class="subtitle">{{'ContactSubtitle' | translate}}</p>
+		<form (ngSubmit)="onSubmit()" #f="ngForm">
+			<div class="row">
+				<div class="col-sm-12">
+					<input type="text"
+						   class="form-control"
+						   placeholder="{{'Name' | translate}}"
+						   name="name"
+						   id="name"
+						   ngModel
+						   required
+						   #name="ngModel">
+					<p class="form" *ngIf="!name.valid && name.touched">{{'ErrorName' | translate}}</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 left">
+					<input type="text"
+						   class="form-control"
+						   placeholder="{{'YourEmail' | translate}}"
+						   name="email"
+						   id="email"
+						   ngModel
+						   email
+						   required
+						   #email="ngModel">
+					<p class="form" *ngIf="!email.valid && email.touched">{{'ErrorEmail' | translate}}</p>
+				</div>
+				<div class="col-sm-6 right">
+					<input type="text"
+						   class="form-control"
+						   placeholder="{{'Subject' | translate}}"
+						   name="subject"
+						   id="subject"
+						   ngModel
+						   #name="ngModel">
+				</div>
+					<div class="col-sm-12">
+						<textarea
+							rows="5"
+							type="text"
+							class="form-control"
+							placeholder="{{'Message' | translate}}"
+							name="bodyMessage"
+							id="bodyMessage"
+							ngModel
+							required
+							#bodyMessage="ngModel"></textarea>
+						<p class="form" *ngIf="!bodyMessage.valid && bodyMessage.touched">{{'ErrorMessage' | translate}}</p>
+						<button class="btn btn-gold " [disabled]="!f.valid">{{'SendMessage' | translate}}</button>
+						<p class="success" *ngIf="f.valid && submitted==true">{{'SuccessMessage' | translate}}</p>
+					</div>
+				</div>
+		</form>
+	</div>
+</div>

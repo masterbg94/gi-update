@@ -1,0 +1,25 @@
+@import "../../../style/palette";
+
+.ribbon {
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+	text-align: center;
+
+  &-gold {
+
+    background: $gi-gold;
+  }
+
+  &-dark {
+
+    background: rgba(26, 26, 26, 0.9);
+    color: #fff;
+  }
+	&-warrning {
+		background: #e77832;
+		color: #ffffff;
+	}
+}

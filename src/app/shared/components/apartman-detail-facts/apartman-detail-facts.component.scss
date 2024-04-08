@@ -1,0 +1,241 @@
+@import "../../../style/palette";
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+.container-fluid {
+	background: rgba($gi-black, .9);
+	padding: 0;
+	margin: 0;
+	min-width: 100%;
+	display: flex;
+	justify-content: center;
+	.container {
+		margin: auto;
+		height: 100%;
+		max-width: 1200px;
+		padding: 0;
+		.row {
+			margin: 0;
+			padding: 15px 15px 0 15px;
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+
+			h1 {
+				font-size: 20px;
+				color: $gi-gold;
+				font-family: Roboto, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				width: 100%;
+				padding: 15px 15px;
+
+			}
+		}
+	}
+}
+
+.description {
+
+	padding-right: 20px;
+
+	p {
+		font-size: 14px;
+		margin-bottom: 20px;
+		font-weight: 300;
+
+		&:last-child {
+
+			margin-bottom: 0;
+		}
+	}
+
+	ul {
+
+		margin: 20px 0 0 20px;
+		list-style: none;
+		padding-bottom: 20px;
+
+		li {
+
+			position: relative;
+			font-size: 16px;
+			font-weight: 300;
+			padding-top: 10px;
+			color: white;
+
+			&:before {
+
+				position: absolute;
+				left: -20px;
+				top: 0;
+				content: "•";
+				font-size: 50px;
+				line-height: 40px;
+				color: $gi-gold;
+			}
+		}
+	}
+}
+img {
+	height: 250px;
+	width: auto;
+	float: none;
+	margin:20px auto 60px auto;
+	display: block;
+  .rotate{
+    transform: rotate(45deg);
+  }
+}
+.table {
+	border-top: 0 !important;
+	td, th, thead {
+		border: none !important;
+		position: relative;
+		border: 0;
+		font-size: 14px;
+		font-weight: 300;
+		font-family: Roboto, sans-serif;
+		img {
+			display: none;
+			transition: .2s;
+			position: absolute;
+			top: 10px;
+			left: 30px;
+			height: 50%;
+			z-index: 10;
+		}
+	}
+	thead {
+		tr {
+			color: white;
+			font-size: 14px;
+			font-weight: 300 !important;
+			font-family: Roboto, sans-serif !important;
+		}
+	}
+	tbody {
+		position: relative;
+		tr {
+			background: rgba($gi-gold, .2);
+			color: white;
+			font-size: 14px;
+			font-weight: 300;
+			font-family: Roboto, sans-serif;
+			cursor: pointer;
+			&:nth-child(odd) {
+
+				background: rgba($gi-gold, .1);
+			}
+		}
+	}
+}
+
+h6 {
+	font-size: 20px;
+	color: white;
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.btn.btn-gold {
+	padding: 10px 10px;
+	border: 0;
+	border-radius: 0;
+	background: $gi-gold;
+	color: white;
+	width: 100%;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+
+	&.sold {
+		background: #e77832;
+	}
+	&.reserve {
+		background: $gi-gold;
+	}
+	&.free {
+		background: #27a32c;
+	}
+}
+
+h5 {
+	font-size: 50px;
+	color: $gi-gold;
+	font-weight: 600;
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 16px;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding:15px 0 0 0 ;
+}
+
+@media screen and (max-width: 575px) {
+	img {
+		margin:20px auto;
+		transform: rotate(0deg);
+		min-width: 50%;
+	}
+	.btn.btn-gold {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 745px) {
+	.ribbon {
+		position: relative;
+		display: block;
+		width: 100% !important;
+		height: 50px;
+		padding: 0;
+		text-align: center;
+		top:0 !important;
+		left: 0 !important;
+
+	}
+	h1 {
+		margin-top: 20px;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.row {
+		display: flex;
+		flex-direction: column;
+		.col-sm-4 {
+			min-width: 100%;
+			img {
+				height: auto;
+				max-height: 300px;
+				max-width: 100%;
+				transform: rotate(0deg);
+				margin: auto;
+				padding-bottom: 0;
+
+
+			}
+		}
+		.col-sm-8 {
+			min-width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.col-sm-4 {
+		.btn {
+			margin-top: 20px;
+		}
+	}
+}

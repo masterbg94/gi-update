@@ -1,0 +1,36 @@
+<div class="header-slider" [class.switching]="switching">
+	<div class="content">
+
+		<div class="wrapper">
+
+			<ng-container *ngIf="!slidesQuery.length">
+				<h1>Greska prilikom ucitavanja slidera</h1>
+				<h2>Proverite da li slider ima dovoljno elemenata</h2>
+			</ng-container>
+
+			<ng-container *ngIf="slidesQuery.length">
+				<div class="row">
+					<div class="col-sm-8">
+						<p #description></p>
+					</div>
+					<div class="col-sm-4">
+						<img *ngIf="activeProfileImage" [src]="activeProfileImage" />
+						<p class="subtitle" #name></p>
+					</div>
+				</div>
+			</ng-container>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="wrapper">
+			<div class="row" style="align-self: flex-start">
+				<div class="col-sm-12">
+					<div class="pager" >
+						<div *ngFor="let slide of slides; let index = index" [class.active]="index == activeSlide" (click)="Slide(index)" style="cursor: pointer"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

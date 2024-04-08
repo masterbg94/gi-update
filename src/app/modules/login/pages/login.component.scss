@@ -1,0 +1,86 @@
+@import "../../../style/palette";
+@import "~bootstrap/scss/bootstrap.scss";
+
+.container-fluid {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	.container {
+		max-width: 800px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+		flex-direction: column;
+		background: $gi-graphite;
+		box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+		.error {
+
+			color:$gi-gold;
+			border: 1px solid $gi-gold;
+			padding: 15px 20px;
+			align-items: center;
+			display: flex;
+			align-self: center;
+			font-family: Roboto, sans-serif;
+			text-align: center;
+			margin-top: 40px;
+
+		}
+		img{
+			flex-direction: row;
+			background-size: cover;
+			background-repeat: no-repeat;
+			align-self: center;
+		}
+
+		form{
+			width: 60%;
+			align-self: center;
+			margin-top: 40px;
+			.form-control[_ngcontent-c4] {
+				border-radius: 0 !important;
+				border:1px solid $gi-gold;
+				background: $gi-graphite;
+				color: $gi-gold;
+				outline-color: $gi-gold;
+				margin-top: 40px;
+				padding: 15px 20px;
+				input[type=text] {
+					background: transparent;
+					color: $gi-gold;
+					outline: $gi-gold;
+					font-family: Roboto, sans-serif;
+					font-weight: 100;
+				}
+
+				&:focus {
+					background: transparent;
+					outline-color: $gi-gold;
+					color: $gi-gold;
+					border-color: rgba($gi-gold, .5);
+					transform: scale(1.1);
+					transition: .2s;
+				}
+			}
+
+		}
+		.btn {
+			width: 100%;
+			align-self: center;
+			margin-top: 40px;
+			margin-bottom: 80px;
+			border-radius: 0 !important;
+			padding: 15px 20px;
+
+		}
+
+	}
+}
+input::placeholder {
+	color: rgba($gi-gold,.5) !important;
+	font-weight: 100;
+	font-family: Roboto, sans-serif;
+}

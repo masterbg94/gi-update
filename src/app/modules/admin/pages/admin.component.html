@@ -1,0 +1,138 @@
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<p *ngIf="showMessage" [ngClass]="messageClass">
+				{{message}}
+			</p>
+
+      <!--Apartmani leonardo 7 -->
+			<div class="col-sm-6">
+				<button class="btn btn-gold" (click)="toogled1()">VILA LEONARDO 7 <i class="fa fa-chevron-down"></i> </button>
+				<table class="table" *ngIf="toogle">
+					<thead>
+					<tr>
+						<th>Br.</th>
+						<th>Površina</th>
+						<th>Broj Soba</th>
+						<th>Lokacija</th>
+						<th>Status</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr *ngFor="let a of apartmentsLeonardo7; let i = index;" (click)="toggleCollapseLeft(i)">
+
+						<td> {{a.apartmentNumber}}</td>
+						<td>{{a.area}}m2</td>
+						<td>{{a.rooms}}</td>
+						<td>{{a.side}}</td>
+						<td >{{a.status}} <i class="fa fa-chevron-down"></i>
+							<div class="edit" *ngIf="i == visibleRowLeft">
+								<span class="reserved" (click)="updateApartmentStatus(a.id, 'Rezervisano', i)">Rezervisano</span>
+								<span class="sold" (click)="updateApartmentStatus(a.id,'Prodato', i)">Prodato</span>
+								<span class="available" (click)="updateApartmentStatus(a.id,'Slobodno', i)">Slobodno</span>
+							</div></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+      <!--Apartmani leonardo 8 -->
+      <div class="col-sm-6">
+				<button class="btn btn-gold" (click)="isCollapsed = !isCollapsed">VILA LEONARDO 8 <i class="fa fa-chevron-down"></i> </button>
+				<table class="table" *ngIf="isCollapsed">
+					<thead>
+					<tr>
+						<th>Br.</th>
+						<th>Površina</th>
+						<th>Broj Soba</th>
+						<th>Lokacija</th>
+						<th>Status</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr *ngFor="let apartment of apartmentsLeonardo8; let i = index" (click)="toggleCollapseRight(i)">
+						<td> {{apartment.apartmentNumber}}</td>
+						<td>{{apartment.area}}m2</td>
+						<td>{{apartment.rooms}}</td>
+						<td>{{apartment.side}}</td>
+						<td>
+							{{apartment.status}} <i class="fa fa-chevron-down"></i>
+							<div class="edit" *ngIf="i == visibleRowRight">
+								<span class="reserved" (click)="updateApartmentStatus(apartment.id, 'Rezervisano', i)">Rezervisano</span>
+								<span class="sold" (click)="updateApartmentStatus(apartment.id,'Prodato', i)">Prodato</span>
+								<span class="available" (click)="updateApartmentStatus(apartment.id,'Slobodno', i)">Slobodno</span>
+							</div>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+      <!--garaze leonardo 7-->
+      <div class="col-sm-6" style="padding-top: 20px">
+        <button class="btn btn-gold" (click)="toogledGarage1()">GARAŽA LEONARDO 7 <i class="fa fa-chevron-down"></i> </button>
+        <table class="table" *ngIf="toogleGarage">
+          <thead>
+          <tr>
+            <th>Broj</th>
+            <th>Parking mesto</th>
+            <th>Povrsina</th>
+            <th>Status</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr  *ngFor="let garage of garageLeonardo7; let i = index" (click)="toggleCollapseLeft(i)">
+            <th>{{garage?.number}}</th>
+            <td>{{garage?.name}}</td>
+            <td>{{garage?.area}}m²</td>
+            <td
+              [class.r]="garage?.status === 'Rezervisano'"
+              [class.s]="garage?.status === 'Prodato'"
+              [class.a]="garage?.status === 'Slobodno'">
+              {{garage.status}} <i class="fa fa-chevron-down"></i>
+              <div class="edit" *ngIf="i == visibleRowLeft">
+                <span class="reserved" (click)="updateGarageStatus(garage?.id, 'Rezervisano', i)">Rezervisano</span>
+                <span class="sold" (click)="updateGarageStatus(garage?.id,'Prodato', i)">Prodato</span>
+                <span class="available" (click)="updateGarageStatus(garage?.id,'Slobodno', i)">Slobodno</span>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!--garaze leonardo 8-->
+      <div class="col-sm-6" style="padding-top: 20px">
+        <button class="btn btn-gold" (click)="toogledGarage2()">GARAŽA LEONARDO 8 <i class="fa fa-chevron-down"></i> </button>
+        <table class="table" *ngIf="toogleGarage2">
+          <thead>
+          <tr>
+            <th>Broj</th>
+            <th>Parking mesto</th>
+            <th>Povrsina</th>
+            <th>Status</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr  *ngFor="let garage of garageLeonardo8; let i = index" (click)="toggleCollapseLeft(i)">
+            <th>{{garage?.number}}</th>
+            <td>{{garage?.name}}</td>
+            <td>{{garage?.area}}m²</td>
+            <td
+              [class.r]="garage?.status === 'Rezervisano'"
+              [class.s]="garage?.status === 'Prodato'"
+              [class.a]="garage?.status === 'Slobodno'">
+              {{garage.status}} <i class="fa fa-chevron-down"></i>
+              <div class="edit" *ngIf="i == visibleRowLeft">
+                <span class="reserved" (click)="updateGarageStatus(garage?.id, 'Rezervisano', i)">Rezervisano</span>
+                <span class="sold" (click)="updateGarageStatus(garage?.id,'Prodato', i)">Prodato</span>
+                <span class="available" (click)="updateGarageStatus(garage?.id,'Slobodno', i)">Slobodno</span>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+		</div>
+	</div>
+</div>

@@ -1,0 +1,150 @@
+<ngbox></ngbox>
+
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<h1>{{'Apartmani' | translate}}</h1>
+			<div class="col-sm-4">
+				<ul class="list">
+					<li *ngFor="let floor of activeBuilding?.floors"
+						[class.active]="activeFloor === floor  && garageService.isGarage == false"
+						(click)="setActive(floor)">
+						{{floor.name | translate}}
+						<span class="available" [class]="getAvailableAptClass(floor)">
+							{{ getAvailableApartments(floor) }}
+						</span>
+					</li>
+          <li
+            [class.active]="garageService.isGarage"
+            (click)="getGarages()"
+            *ngIf="buildingId == 11"
+          >
+            {{'GARAŽA' | translate}}
+            <span class="available" [class]="getAvailableGarageClass(activeBuilding)">
+							{{getAvailableGarage(activeBuilding)}}
+						</span>
+          </li>
+          <!--<li
+            [class.active]="garageService.isGarage"
+            (click)="getGarages()"
+            *ngIf="buildingId == 12"
+          >
+            {{'GARAŽA' | translate}}
+            <span class="available" [class]="getAvailableGarageClass(activeBuilding)">
+							{{getAvailableGarage(activeBuilding)}}
+						</span>
+          </li>-->
+          <li
+            [class.active]="garageService.isGarage && activeGarageNumber==1"
+            (click)="getGarages(1)"
+            *ngIf="buildingId == 13"
+          >
+            {{'GARAŽA' | translate}} 1
+            <span class="available" [class]="getAvailableGarageClass(activeBuilding)">
+							{{getAvailableGarage(activeBuilding,1)}}
+						</span>
+          </li>
+
+          <li
+            [class.active]="garageService.isGarage && activeGarageNumber==2"
+            (click)="getGarages(2)"
+            *ngIf="buildingId == 13"
+          >
+            {{'GARAŽA' | translate}} 2
+            <span class="available" [class]="getAvailableGarageClass(activeBuilding)">
+							{{getAvailableGarage(activeBuilding,2)}}
+						</span>
+          </li>
+				</ul>
+			</div>
+			<div class="col-sm-8">
+				<button class="btn btn-gold" *ngIf="garageService.isGarage == false">{{activeFloor?.name | translate}}</button>
+        <button class="btn btn-gold" *ngIf="garageService.isGarage == true && buildingId == 11" >{{'GARAŽA' | translate}}</button>
+				<table class="table" *ngIf="garageService.isGarage == true">
+					<thead>
+						<tr>
+							<th>{{'Nu' | translate}}</th>
+							<th>{{'Area' | translate}}</th>
+							<th>{{'Status' | translate}}</th>
+							<th>{{'orientation' | translate}}</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr *ngFor="let garage of garages">
+							<td scope="row">{{garage.number}}
+							</td>
+              <td>
+                {{garage.area}}m²
+              </td>
+							<td>
+                  {{garage.status}}
+							</td>
+              <td *ngIf="activeBuilding?.id==12">
+                <div *ngIf="garage" ng-box  [src]="'../../../../assets/img/leonardo7/garaza/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;;">
+                  <i class="fa fa-chevron-right back-button"></i></div>
+              </td>
+              <td *ngIf="activeBuilding?.id==13">
+                <div *ngIf="garage" ng-box  [src]="'../../../../assets/img/leonardo8/garaze/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;;">
+               <i class="fa fa-chevron-right back-button"></i></div>
+              </td>
+              <td>
+                  <span
+                    [class.red]="garage.status === 'Prodato'"
+                    [class.orange]="garage.status === 'Rezervisano'"
+                    [class.green]="garage.status === 'Slobodno'">
+								</span>
+              </td>
+
+						</tr>
+					</tbody>
+				</table>
+
+        <table class="table" *ngIf="garageService.isGarage == false">
+          <thead>
+          <tr>
+            <th>{{'Nu' | translate}}</th>
+            <th>{{'Area' | translate}}</th>
+            <th>{{'NumberOfrooms' | translate}}</th>
+            <th>{{'Status' | translate}}</th>
+            <th >{{'DetailA' | translate}}</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let apt of activeFloor?.apartment">
+            <td scope="row" style="display: flex"> <p style="margin-bottom: 0" *ngIf="apt.id == 82 || apt.id == 83 || apt.id == 84 || apt.id == 85 ">0</p>{{apt?.apartmentNumber}}
+            </td>
+            <td [routerLink]="'./apartman/' + apt.id">{{apt.area}}m²</td>
+            <td  [routerLink]="'./apartman/' + apt.id">{{apt.rooms}}</td>
+
+            <td>
+              {{apt?.status | translate}}
+
+
+            </td>
+            <td [routerLink]="'./apartman/' + apt.id" ><i class="fa fa-chevron-right back-button"></i> </td>
+
+
+            <td>
+								<span
+                  [class.red]="apt.status === 'Prodato'"
+                  [class.orange]="apt.status === 'Rezervisano'"
+                  [class.green]="apt.status === 'Slobodno'">
+								</span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+			</div>
+
+			<div class="col-sm-12">
+				<span class="one"></span>
+				<p>{{'Green' | translate}}</p>
+				<span class="two"></span>
+				<p>{{'Orange' | translate}}</p>
+				<span class="three"></span>
+				<p>{{'Yellow' | translate}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+

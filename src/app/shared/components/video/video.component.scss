@@ -1,0 +1,174 @@
+@import "../../../style/palette";
+
+
+.none {
+	display: none;
+}
+.embed-container {
+	position: relative;
+	overflow: hidden;
+	z-index: 50;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: 100%;
+	background: #212022;
+	z-index: 10;
+}
+
+.x{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: 5px;
+	top: 5px;
+	z-index: 1000;
+	cursor: pointer;
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
+.video {
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  height: 450px;
+  position: relative;
+  background: url("/assets/img/slider1.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000, 0);
+
+    transition: background .2s;
+  }
+
+
+  .play {
+
+    display: flex;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(#fff, .5);
+    border: 10px solid rgba($gi-gold, .5);
+    cursor: pointer;
+    z-index: 10;
+    text-align: center;
+    justify-content: center;
+
+    transition: background .2s ease-in-out, border .5s ease-in-out;
+
+    &:hover {
+
+      background: rgba(#fff, .75);
+      border: 20px solid rgba($gi-gold, 1);
+
+      &::before {
+
+        transform: scale(1.2);
+      }
+    }
+
+    &::before {
+
+      content: "";
+      display: flex;
+      align-self: center;
+      justify-self: center;
+
+      width: 0;
+      height: 0;
+      margin-left: 20px;
+      border-style: solid;
+      border-width: 30px 0 30px 50px;
+      border-color: transparent transparent transparent $gi-charcoal;
+      line-height: 0px;
+
+      // IE Support ( add chroma filter )
+      _border-color: #000000 #000000 #000000 $gi-charcoal;
+      _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+
+      // Better anti-aliasing in webkit browsers
+      transform: rotate(360deg);
+
+      transition: all .3s ease-in-out;
+    }
+  }
+
+  &:hover {
+
+    .overlay {
+      background: rgba(#000, .5);
+    }
+  }
+
+  &::before,
+  &::after {
+
+    position: absolute;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 600px 0 0;
+    line-height: 0px;
+    z-index: 10;
+
+    // IE Support ( add chroma filter )
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+
+    // Better anti-aliasing in webkit browsers
+    transform: rotate(360deg);
+  }
+
+  &::before {
+
+    top: 0;
+    left: 0;
+    border-color: $gi-charcoal transparent transparent transparent;
+
+    // IE Support ( add chroma filter )
+    _border-color: $gi-charcoal #000000 #000000 #000000;
+  }
+
+  &::after {
+
+    bottom: 0;
+    right: 0;
+    border-color: transparent $gi-gold transparent transparent;
+
+    // IE Support ( add chroma filter )
+    _border-color: #000000 $gi-gold #000000 #000000;
+  }
+}
+@media screen and (max-width: 570px){
+	.video {
+		max-width: 100%;
+		overflow: hidden;
+	}
+}

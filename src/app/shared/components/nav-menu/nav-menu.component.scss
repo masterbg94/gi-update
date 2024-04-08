@@ -1,0 +1,354 @@
+@import '../../../style/_palette.scss';
+@import "~bootstrap/scss/bootstrap.scss";
+
+button.navbar-toggler.navbar-toggler-right {
+  outline: none;
+}
+
+header.navbar {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  z-index: 20;
+  //margin-top: 5px;
+  height: 60px;
+
+  .navbar-brand {
+    height: 100%;
+    max-width: 200px;
+    padding: 0;
+    margin: 0;
+
+    img {
+      position: relative;
+      height: 100%;
+    }
+  }
+}
+
+li.nav-item.lng {
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $gi-asphalt;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 300 !important;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+
+  &:hover {
+    background: rgba($gi-gold, .1);
+    color: white;
+  }
+}
+
+ul.navbar-nav.mr-auto {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav.mr-auto.lng {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.active {
+  color: #fff;
+}
+
+.activeLang {
+  color: $gi-gold !important;
+}
+
+.navbar-light[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .active[_ngcontent-c1] > .nav-link[_ngcontent-c1] {
+  color: $gi-gold;
+}
+
+.navbar-light[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .show[_ngcontent-c1] > .nav-link[_ngcontent-c1] {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 300;
+  color: $gi-asphalt;
+}
+
+.close {
+  background: url("../../../../assets/img/x.png");
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  display: block;
+
+}
+
+span[_ngcontent-c1] {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+
+button.dropdown-item {
+  color: $gi-asphalt;
+  outline: none;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 5px;
+  background: #212022;
+  font-weight: 300 !important;
+  font-family: Roboto, sans-serif;
+
+  &:hover {
+    cursor: pointer;
+    background: rgba($gi-gold, .1);
+    color: white;
+
+  }
+
+}
+
+
+.navbar-light[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .nav-link[_ngcontent-c1]:hover ::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $gi-gold;
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dropdown-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $gi-gold;
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+:hover::after {
+  width: 100%;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+}
+
+.navbar {
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+span {
+  line-height: 22px;
+  text-align: center;
+
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../../../assets/img/mobile-nav.png") !important;
+  width: 30px;
+  height: 30px;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $gi-gold;
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+:hover::after {
+  width: 100%;
+}
+
+.nav-link {
+  position: relative;
+  line-height: 52px;
+  padding: 0 15px;
+
+  .fa-chevron-right {
+    opacity: 0;
+  }
+}
+
+.navbar-lignt .navbar-nav .nav-link {
+  padding: 0 15px;
+  height: 52px;
+}
+
+header.navbar {
+  border: none;
+  box-shadow: none;
+}
+
+img {
+  // NE TREBA DEFINISANO JE IZNAD Na POCETKU
+  //max-width: 100%;
+  //height: auto;
+  //position: absolute;
+  //top: -10px;
+  //left: 20px;
+
+}
+
+.navbar-toggler {
+  border-radius: 0;
+
+}
+
+.dropdown-menu.show {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 0;
+  background: #212022;
+  color: $gi-asphalt;
+}
+
+.collapse {
+  transition: .5s;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $gi-gold;
+    transition: width .3s;
+    position: relative;
+  }
+  :hover::after {
+    width: 100%;
+  }
+  .dropdown-menu.show {
+    border: none !important;;
+
+    button.dropdown-item {
+      margin-left: 40px;
+
+    }
+  }
+  img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #navbarContent {
+    background: $gi-graphite;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  a.nav-link {
+    padding-left: 25px !important;
+    display: flex !important;
+    flex-direction: row !important;
+
+    &:hover::after {
+      display: none;
+    }
+  }
+  li.nav-item.lng {
+    margin-left: 0 !important;
+
+    :hover::after {
+      display: none;
+    }
+  }
+  .fa {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    cursor: pointer;
+
+  }
+  .fa.fa-chevron-right {
+    opacity: 1 !important;
+  }
+  .dropdown-menu.show {
+    button.dropdown-item {
+      margin-left: 0 !important;
+      padding-left: 40px !important;
+    }
+  }
+
+}
+
+@media screen and (max-width: 570px) {
+  a.nav-link {
+    padding-left: 25px !important;
+    display: flex !important;
+    flex-direction: row !important;
+
+    &:hover::after {
+      display: none;
+    }
+  }
+  li.nav-item.lng {
+    margin-left: 0 !important;
+
+    :hover::after {
+      display: none !important;
+    }
+  }
+  .fa {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    cursor: pointer;
+
+  }
+  .fa.fa-chevron-right {
+    opacity: 1 !important;
+  }
+  .navbar-light[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .nav-link[_ngcontent-c1]:hover ::after {
+    display: none;
+  }
+  .dropdown-item::after {
+
+  }
+  :hover::after {
+    display: none;
+  }
+  .navbar-light[_ngcontent-c1] .navbar-nav[_ngcontent-c1] .nav-link[_ngcontent-c1]:hover {
+    display: none;
+  }
+
+
+}
+
+
+
+

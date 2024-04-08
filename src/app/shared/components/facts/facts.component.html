@@ -1,0 +1,20 @@
+<div class="container">
+<!--  ovo je bilo za 300+ apartmana -->
+	<!--<div class="row">
+		<div class="col-sm-3" *ngFor="let fact of facts;let i = index">
+			<h1 [class.h1]="!fact.big"
+          [class.plus]="i==2"
+				[class.big]="fact.big">{{fact.current}}
+        <span *ngIf="i==2">+</span>
+      </h1>
+			<p>{{fact.description | translate}}</p>
+		</div>
+	</div>-->
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let fact of facts">
+      <h1 [class.h1]="!fact.big"
+          [class.big]="fact.big">{{fact.current}}</h1>
+      <p>{{fact.description | translate}}</p>
+    </div>
+  </div>
+</div>

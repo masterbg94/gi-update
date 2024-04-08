@@ -1,0 +1,54 @@
+@import "../../../style/palette";
+
+.view {
+
+  display: flex;
+
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+
+  h1, h2 {
+
+    font-size: 18px;
+  }
+
+  h1 {
+
+    font-weight: 400;
+  }
+
+  h2 {
+
+    font-weight: 100;
+  }
+
+  p {
+
+    font-weight: 300;
+    margin: 30px 0;
+  }
+
+  &-dark {
+
+    background: $gi-charcoal;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 570px)  {
+	.view {
+		padding: 20px;
+		p {
+			padding: 0;
+		}
+	}
+}
+@media screen and (max-width:768px)  {
+	.view {
+		padding: 20px;
+		p {
+			padding: 0;
+		}
+	}
+}

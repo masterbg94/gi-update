@@ -1,0 +1,33 @@
+<div class="container-fluid">
+<div class="container">
+	<img src="../../../../assets/img/loginlogo.png">
+
+	<div class="error" *ngIf="dirty == true && error == true">
+			Neispravno Ime ili Lozinka :( <br>Pokušajte ponovo!
+	</div>
+
+	<form (ngSubmit)="onSubmit()" #f="ngForm">
+				<input type="text"
+					   class="form-control"
+					   placeholder="Username"
+					   name="name"
+					   id="email"
+					   ngModel
+					   required
+					  >
+
+				<input type="password"
+					   class="form-control"
+					   placeholder="Password"
+					   name="password"
+					   id="password"
+					   	ngModel
+						required
+						>
+
+		<button class="btn btn-gold">SIGN IN</button>
+	</form>
+
+
+</div>
+</div>

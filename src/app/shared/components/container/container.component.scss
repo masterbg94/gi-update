@@ -1,0 +1,14 @@
+@import '../../../style/palette';
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: white;
+	.container {
+		margin: auto;
+		display: block;
+		max-width: 1200px;
+
+	}
+}

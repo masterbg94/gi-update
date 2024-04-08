@@ -1,0 +1,13 @@
+
+<div class="video" (click)="playingVideo()">
+	<div class="x" *ngIf="play" (click)="!play">
+		<img src="../../../../assets/img/x.png">
+	</div>
+	<div class="embed-container" [class.none]="!play" style="width: 100%;height: 100%">
+    <iframe *ngIf="play" src="https://player.vimeo.com/video/831797949?autoplay=1&loop=1&color=E7A932&byline=0&portrait=0" width="100%" height="100%"  frameborder="0"allowfullscreen></iframe>
+	</div>
+    <div class="overlay" *ngIf="play == false"></div>
+    <div class="play" *ngIf="play == false"></div>
+</div>
+
+

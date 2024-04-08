@@ -1,0 +1,149 @@
+@import "../../../style/palette";
+@import "~bootstrap/scss/bootstrap.scss";
+
+.container-fluid {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: $gi-graphite;
+
+  .container {
+    display: flex;
+    align-self: center;
+    max-width: 1200px;
+
+    .row {
+      width: 100%;
+
+      .col-sm-6 {
+
+      }
+
+      .btn {
+        width: 100%;
+        padding: 15px 20px;
+        border-radius: 0 !important;
+
+        .fa {
+          float: right;
+        }
+
+
+      }
+
+      .table {
+        border-top: 0 !important;
+
+        td, th, thead {
+          border: none !important;
+          position: relative;
+          border: 0;
+          font-size: 14px;
+          font-weight: 300;
+          font-family: Roboto, sans-serif;
+
+
+          .edit {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin-top: 10px;
+
+            span {
+              width: 100%;
+              margin: 5px 0;
+              padding: 5px 10px;
+
+              &.reserved {
+                background: $gi-gold;
+              }
+
+              &.sold {
+                background: #e77832;
+              }
+
+              &.available {
+                background: #27a32c;
+              }
+            }
+          }
+
+          img {
+            display: none;
+            transition: .2s;
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            height: 50%;
+            z-index: 10;
+          }
+        }
+
+        thead {
+          tr {
+            color: white;
+            font-size: 14px;
+            font-weight: 300 !important;
+            font-family: Roboto, sans-serif !important;
+          }
+        }
+
+        tbody {
+          position: relative;
+
+          tr {
+            background: rgba($gi-gold, .2);
+            color: white;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: Roboto, sans-serif;
+            cursor: pointer;
+
+            &:nth-child(odd) {
+
+              background: rgba($gi-gold, .1);
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.notShow {
+  display: none;
+}
+
+
+@media screen and (max-width: 570px) {
+  .btn {
+    margin-top: 40px;
+  }
+}
+
+.alert {
+
+  position: fixed;
+  left: 20%;
+  right: 20%;
+  top: 100px;
+  z-index: 100;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: white;
+
+  &-success {
+
+    background: green;
+  }
+
+  &-danger {
+
+    background: darkred;
+  }
+}

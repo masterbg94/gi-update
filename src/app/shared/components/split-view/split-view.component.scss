@@ -1,0 +1,20 @@
+@import "../../../style/palette";
+
+.split-view {
+
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 570px){
+	.split-view{
+		flex-direction: column;
+		max-width: 100%;
+	}
+}
+
+

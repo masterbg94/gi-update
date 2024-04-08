@@ -1,0 +1,144 @@
+@import "../../../style/palette";
+
+:host {
+
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  cursor: default;
+//  new fix
+  flex-wrap: wrap;
+}
+
+.block-list-item {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //width: calc(25% - 80px);
+  width: 23%;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(#000, .25);
+	margin: 10px;
+
+  transition: transform .2s;
+
+  &:hover {
+
+    transform: scale(1.1);
+
+    .img {
+
+      border: 15px solid $gi-gold;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    color: $gi-charcoal;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: $gi-gold;
+    //color: #fff;
+    padding: 20px 20px 40px;
+    border-bottom: 20px solid $gi-charcoal;
+    font-size: 20px;
+    //font-weight: 100;
+    text-align: center;
+	  text-transform: uppercase;
+  }
+
+  .img {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 10px rgba(#000, .25);
+    z-index: 10;
+    margin-top: -40px;
+    position: relative;
+    overflow: hidden;
+
+    transition: border .1s ease-in;
+
+    img {
+      // IMG fix
+      width: auto;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .details {
+
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+.sold {
+	color: #e77832;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+
+.free {
+	color: #27a32c;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+.hidden {
+	display: none;
+}
+::ng-deep{
+  ngbox{
+    .right,.left{
+      width: 60px!important;
+      height: 60px!important;
+    }
+  }
+}
+@media screen and (max-width: 993px){
+	.block-list-item{
+		margin-top: 20px;
+		display: flex;
+		max-width: 100%;
+		align-self: center;
+		transition: none;
+		&:hover {
+			transform: none;
+
+		}
+	}
+	:host {
+		flex-direction: column;
+	}
+	.hidden {
+		display: none;
+	}
+	h1 {
+		font-weight: 400 !important;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+  .block-list-item{
+    width: calc(50% - 40px);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .block-list-item{
+    width: 100%
+  }
+}

@@ -1,0 +1,86 @@
+<footer class="footer">
+  <div class="container">
+    <div class="left">
+      <div class="links">
+        <div class="link-group">
+          <h1>GOLD INVEST GRADNJA</h1>
+          <ul>
+            <li [routerLink]="['/objekat/12']"><a> {{'Footer.SalesVillaLeonardo7' | translate}}</a></li>
+            <li [routerLink]="['/objekat/13']"><a> {{'Footer.SalesVillaLeonardo8' | translate}}</a></li>
+            <li [routerLink]="['/onama']"><a>{{'Footer.About' | translate}}</a></li>
+            <li [routerLink]="['/kontakt']"><a>{{'Footer.Contact' | translate}}</a></li>
+            <li [routerLink]="['/galerija/leonardo7']"><a>{{'Footer.GalleryLeonardo7' | translate}}</a></li>
+            <li [routerLink]="['/galerija/leonardo8']"><a>{{'Footer.GalleryLeonardo8' | translate}}</a></li>
+          </ul>
+        </div>
+        <div class="link-group">
+          <h1>{{'Footer.Links' | translate}}</h1>
+
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Zlatibor">{{'Footer.Zlatibor' | translate}}</a></li>
+            <li><a href="http://www.dinopark.rs/"> {{'Footer.Low' | translate}}</a></li>
+            <li><a href="http://www.skijalistasrbije.rs/sr/o-centru-tornik-zlatibor">{{'Footer.Ski' | translate}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subscribe">
+
+        <p>
+          {{'Footer.SubscribeP' | translate}}
+        </p>
+
+        <form>
+          <input type="email" name="email" placeholder="{{'Footer.SubscribePlaceholder' | translate}}"/>
+          <button type="submit">{{'Footer.SubscribeButton' | translate}}</button>
+        </form>
+      </div>
+    </div>
+    <!--
+    Ivan izbacio
+    <div class="right" style="width: 50%">
+
+      <h1>{{'Footer.Pressure' | translate}}</h1>
+
+      <app-slider-footer>
+        <app-slider-footer-item [profile]="'/assets/img/profile1.png'">
+          <div class="description">
+            {{'Footer.PressureP1' | translate}}
+          </div>
+          <div class="subtitle">
+            Ivan Babić
+          </div>
+        </app-slider-footer-item>
+
+        <app-slider-footer-item [profile]="'/assets/img/profile2.png'">
+          <div class="description">
+            {{'Footer.PressureP2' | translate}}
+          </div>
+          <div class="subtitle">
+            Danijela Pavlović
+          </div>
+        </app-slider-footer-item>
+
+        <app-slider-footer-item [profile]="'/assets/img/profile3.png'">
+          <div class="description">
+            {{'Footer.PressureP3' | translate}}
+          </div>
+          <div class="subtitle">
+            Zoran Petrović
+          </div>
+        </app-slider-footer-item>
+      </app-slider-footer>
+    </div>-->
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <div class="powered">
+        Powered by Limit Consolidated
+      </div>
+
+      <div class="copy">
+        &copy; Copyright 2023, All Right Reserved
+      </div>
+    </div>
+  </div>
+</footer>

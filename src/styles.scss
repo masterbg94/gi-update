@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+@import 'app/style/_palette.scss';
+
+* {
+
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html, body {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+
+  display: inline-flex;
+  padding: 15px 30px;
+  cursor: pointer;
+  box-shadow: 0 0 0 transparent;
+  align-content: center;
+  justify-content: center;
+
+  transition: all .2s;
+
+  &:hover {
+
+    box-shadow: 0 0 10px rgba(#000, .5);
+  }
+
+  &-gold {
+    background: $gi-gold!important;
+    color: $gi-charcoal;
+
+    &:hover {
+
+      color: #fff;
+    }
+  }
+
+  &-dark {
+
+    background: $gi-charcoal;
+    color: #fff;
+  }
+}
+
+.center {
+
+  text-align: center;
+}
+
+.mb-20 {
+
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+
+  margin-bottom: 40px;
+}
+
+.outerContainer.ng-tns-c11-0.ng-trigger.ng-trigger-showViewerTransition{
+  z-index: 6!important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";

@@ -1,0 +1,98 @@
+<app-slider>
+  <app-slider-item [link]="'onama'" [background]="'slider1.jpg'">
+    <h1>{{'slider1Texth1' | translate}}</h1>
+    <h2>{{'slider1Texth2' | translate}}</h2>
+  </app-slider-item>
+<app-slider-item [hideTitleOnMobile]="true" [link]="'objekat/12'" [background]="'leonardo7.png'">
+    <a class="btn btn-gold" [routerLink]="['objekat/12']"
+       style="text-decoration:none;">{{'sale' | translate}} {{'VillaLeonardo7' | translate}}</a>
+  </app-slider-item>
+  <app-slider-item [hideTitleOnMobile]="true" [link]="'objekat/13'" [background]="'leonardo8.png'">
+    <a class="btn btn-gold" [routerLink]="['objekat/13']"
+       style="text-decoration:none;"> {{'sale' | translate}} {{'VillaLeonardo8' | translate}}</a>
+  </app-slider-item>
+</app-slider>
+
+
+<app-ribbon style="gold">
+  {{"sliderRibbon" | translate}}
+</app-ribbon>
+
+<app-split-view>
+  <app-split-view-item style="dark">
+    <h1>{{'VillaLeonardo7' | translate}}</h1>
+    <h2>{{'energy' | translate}}</h2>
+
+    <p>
+      {{'Vila7Description' | translate}}
+    </p>
+
+    <a class="btn btn-gold" routerLink="objekat/12" style="text-decoration:none;">
+      {{'VillaLeonardo7' | translate}}
+    </a>
+  </app-split-view-item>
+
+  <app-split-view-item style="light">
+    <h1>{{'VillaLeonardo8' | translate}}</h1>
+    <h2>{{'vila8heading' | translate}}</h2>
+
+    <p>
+      {{'OPIS8' | translate}}
+    </p>
+
+    <a class="btn btn-dark" routerLink="objekat/13" style="text-decoration:none;">
+      {{'VillaLeonardo8' | translate}}
+    </a>
+  </app-split-view-item>
+</app-split-view>
+
+<app-video></app-video>
+
+<app-ribbon style="dark">
+  {{'video' | translate}}
+</app-ribbon>
+
+<app-split-view>
+  <app-split-view-item>
+    {{'galleryText2' | translate}}
+    <div class="center" style="margin-top: 40px" routerLink="galerija/leonardo7">
+      <a class="btn btn-gold center mb-40">
+        {{'Gallery' | translate}} {{'VillaLeonardo7' | translate}}
+      </a>
+    </div>
+  </app-split-view-item>
+  <app-split-view-item style="light">
+    {{'galleryText3' | translate}}
+    <div class="center" style="margin-top: 40px" routerLink="galerija/leonardo8">
+      <a class="btn btn-gold center mb-40">
+        {{'Gallery' | translate}} {{'VillaLeonardo8' | translate}}
+      </a>
+    </div>
+  </app-split-view-item>
+</app-split-view>
+
+
+<app-ribbon style="dark">
+  GOLD INVEST GRADNJA
+</app-ribbon>
+
+<app-wrapper>
+  <app-facts>
+    <app-facts-item></app-facts-item>
+  </app-facts>
+
+  <p>
+    {{'AboutDescription' | translate}}
+
+  </p>
+
+  <h1 style="text-align: center">{{'Finished' | translate}}</h1>
+
+  <app-block-list>
+    <app-block-list-item></app-block-list-item>
+  </app-block-list>
+</app-wrapper>
+
+<app-faq></app-faq>
+
+<app-map></app-map>

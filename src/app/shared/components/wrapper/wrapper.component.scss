@@ -1,0 +1,42 @@
+@import "../../../style/palette";
+
+.wrapper-container {
+
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1200px;
+  max-width: 90%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 570px){
+	.wrapper-container  {
+		padding: 10px;
+		max-width: 100%;
+		p {
+			padding: 0;
+		}
+		.wrapper-container{
+			max-width: 90%;
+		}
+	}
+}
+@media screen and (max-width: 768px){
+	.wrapper-container  {
+		padding: 10px;
+		max-width: 100%;
+		.container{
+			max-width: 100%!important;
+			padding-right: 0!important;
+			padding-left: 0!important;
+		}
+		p {
+			padding: 0;
+			font-family: Roboto, sans-serif;
+			font-weight: 300;
+		}
+	}
+}
+
+
