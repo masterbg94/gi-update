@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'galerija/leonardo8',
     loadChildren: () => import('./modules/gallery3/gallery3.module').then(m => m.Gallery3Module),
   },
+  {
+    path: 'onama',
+    loadChildren: () => import('./modules/onama/onama.module').then(m => m.OnamaModule),
+  },
   /*
   {
     path: 'objekat/:id',
@@ -30,10 +34,6 @@ const routes: Routes = [
   {
     path: 'objekat/:id/apartman/:aid',
     loadChildren: () => import('app/modules/apartman-detail/apartman-detail.module').then(m => m.ApartmanDetailModule),
-  },
-  {
-    path: 'onama',
-    loadChildren: () => import('app/modules/onama/onama.module').then(m => m.OnamaModule),
   },
   {
     path: 'login',

@@ -1,36 +1,35 @@
 @import "../../../style/palette";
 
-
 p {
-	webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
-	-webkit-column-gap: 40px;
-	-moz-column-gap: 40px;
-	column-gap: 40px;
-	font-size: 16px;
-	font-family: Roboto, sans-serif;
-	font-weight: 300;
-	color: $gi-graphite;
-	margin: 40px 0;
+  webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: $gi-graphite;
+  margin: 40px 0;
 }
 
 @media screen and (max-width: 630px) {
-	p {
+  p {
 
-		webkit-column-count: 1;
-		-moz-column-count: 1;
-		column-count: 1;
-		-webkit-column-gap: 0;
-		-moz-column-gap: 0;
-		column-gap: 0;
-		display: block;
-		text-align: center;
-	}
+    webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+    display: block;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 570px) {
-	p {
-		margin-bottom: 0 !important;
-	}
+  p {
+    margin-bottom: 0 !important;
+  }
 }

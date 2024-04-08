@@ -1,23 +1,20 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-	moduleId:    module.id,
-	templateUrl: './onama.component.html',
-	styleUrls:   ['./onama.component.scss']
+  moduleId: module.id,
+  templateUrl: './onama.component.html',
+  styleUrls: ['./onama.component.scss']
 })
-export class OnamaComponent implements OnInit{
-	public show = true;
-		   img ='../../../assets/img/headerOnama.png';
-	public map = true;
+export class OnamaComponent implements OnInit {
+  public show = true;
+  img = '../../../assets/img/headerOnama.png';
+  public map = true;
+  screenWidth: number;
 
-	screenWidth:number;
-
-		ngOnInit()
-		{
-			this.screenWidth = window.innerWidth;
-
-			if(this.screenWidth < 768){
-				this.img = '';
-			}
-		}
+  ngOnInit() {
+    this.screenWidth = window.innerWidth;
+    if (this.screenWidth < 768) {
+      this.img = '';
+    }
+  }
 }
