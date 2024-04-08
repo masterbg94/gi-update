@@ -1,125 +1,131 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "../../../style/palette";
 
-
 h1 {
-	height: 120px;
-	width: 120px;
-	border-radius: 60px;
-	background: $gi-gold;
-	text-align: center;
-	display: flex;
-	align-self: center;
-	justify-content: space-around;
-	flex-direction: column-reverse;
-	font-size: 30px;
-	color: white;
-	border-bottom: 7px solid $gi-graphite;
-	border-left: 3px solid $gi-graphite;
-	border-right: 3px solid $gi-graphite;
-	box-sizing: border-box;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  background: $gi-gold;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  font-size: 30px;
+  color: white;
+  border-bottom: 7px solid $gi-graphite;
+  border-left: 3px solid $gi-graphite;
+  border-right: 3px solid $gi-graphite;
+  box-sizing: border-box;
 
 }
+
 .h1 {
-	color: white;
-	font-size: 40px;
+  color: white;
+  font-size: 40px;
 }
-.plus{
-  display: flex!important;
-  flex-direction: row!important;
-  align-items: center!important;
-  justify-content: center!important;
+
+.plus {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .big {
-	height: 150px;
-	width: 150px;
-	border-radius: 75px;
-	background: $gi-gold;
-	text-align: center;
-	display: flex;
-	align-self: center;
-	justify-content: space-around;
-	flex-direction: column-reverse;
-	font-size: 60px;
-	color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background: $gi-gold;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  font-size: 60px;
+  color: white;
 }
 
 
 p {
-	padding: 0 22px;
-	text-align: center;
-	font-weight: 300;
+  padding: 0 22px;
+  text-align: center;
+  font-weight: 300;
 }
+
 .col-sm-3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	transition: .2s ;
-	transition-timing-function: ease-in;
-	&:hover {
-		transform: scale(1.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: .2s;
+  transition-timing-function: ease-in;
 
-	}
+  &:hover {
+    transform: scale(1.1);
+  }
+  &.cetvrtina{
+    max-width: 25%;
+  }
 }
 
-@media screen and (max-width: 660px){
-	.col-sm-3{
-		p{
-			font-size: 15px;
-		}
-	}
+@media screen and (max-width: 660px) {
+  .col-sm-3 {
+    p {
+      font-size: 15px;
+    }
+  }
 }
 
 @media screen and (max-width: 570px) {
-	.container{
-		padding-top: 40px;
-		max-width: 100% !important;
-		padding-left: 0;
-		padding-right: 0;
-	}
-	h1{
-		height: 70px;
-		width: 70px;
-		border-radius: 35px;
-		background: $gi-gold;
-		text-align: center;
-		display: flex;
-		align-self: center;
-		justify-content: space-around;
-		flex-direction: column-reverse;
-		font-size: 25px;
-		color: white;
-		border-bottom: 2px solid $gi-graphite;
-		box-sizing: border-box;
-	}
-	h1.h1{
-		font-size: 25px !important;
-	}
-	.big {
-		height: 70px;
-		width: 70px;
-		border-radius: 35px;
-		background: $gi-gold;
-		color: white;
-		font-size: 25px!important;
-	}
+  .container {
+    padding-top: 40px;
+    max-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background: $gi-gold;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    font-size: 25px;
+    color: white;
+    border-bottom: 2px solid $gi-graphite;
+    box-sizing: border-box;
+  }
+  h1.h1 {
+    font-size: 25px !important;
+  }
+  .big {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background: $gi-gold;
+    color: white;
+    font-size: 25px !important;
+  }
 
-	.col-sm-3{
-		display: flex;
-		flex-direction: row;
-		justify-content: start;
-		p{
-			display: flex;
-			align-items: center;
-			font-size: 15px;
-			text-align: left;
-		}
-	}
+  .col-sm-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 
-	.row{
-		margin-right: 0;
-		margin-left: 0;
-	}
+    p {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      text-align: left;
+    }
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
 }

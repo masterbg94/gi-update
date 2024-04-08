@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container p-0 m-0">
 <!--  ovo je bilo za 300+ apartmana -->
 	<!--<div class="row">
 		<div class="col-sm-3" *ngFor="let fact of facts;let i = index">
@@ -10,8 +10,8 @@
 			<p>{{fact.description | translate}}</p>
 		</div>
 	</div>-->
-  <div class="row">
-    <div class="col-sm-3" *ngFor="let fact of facts">
+  <div class="row p-0 m-0 align-items-baseline">
+    <div class="col-sm-3 cetvrtina" *ngFor="let fact of facts">
       <h1 [class.h1]="!fact.big"
           [class.big]="fact.big">{{fact.current}}</h1>
       <p>{{fact.description | translate}}</p>
