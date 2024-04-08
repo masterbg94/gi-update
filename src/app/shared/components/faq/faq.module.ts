@@ -3,13 +3,13 @@ import {CommonModule, NgSwitch} from '@angular/common';
 
 
 import {FaqComponent} from './faq.component';
-import {SlimModule} from '../SlimScroll/slim.module';
+// import {SlimModule} from '../SlimScroll/slim.module';
 import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
 	imports: [
 		CommonModule,
-		SlimModule,
+		// SlimModule,
 		TranslateModule
 	],
 	declarations: [

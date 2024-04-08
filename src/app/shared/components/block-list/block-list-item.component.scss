@@ -142,3 +142,9 @@
     width: 100%
   }
 }
+
+@media screen and (max-width: 992px) {
+  .block-list-item{
+    margin: 10px 0 0 0;
+  }
+}

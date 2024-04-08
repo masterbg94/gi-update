@@ -1,135 +1,135 @@
 <div class="faq">
-	<h1>{{'QuestionsAndAnswers' | translate}}</h1>
+  <h1>{{'QuestionsAndAnswers' | translate}}</h1>
 
-	<div class="content">
-		<ul class="list">
-			<li [class.active]="value == 1" (click)="setActive(1)">
-				{{'Question1' | translate}}
-			</li>
-			<li [class.active]="value == 2" (click)="setActive(2)">
-				{{'Question2' | translate}}
-			</li>
-			<li [class.active]="value == 3" (click)="setActive(3)">
-				{{'Question3' | translate}}
-			</li>
-			<li [class.active]="value == 4" (click)="setActive(4)">
-				{{'Question4' | translate}}
-			</li>
-			<li [class.active]="value == 5" (click)="setActive(5)">
-				{{'Question5' | translate}}
-			</li>
-		</ul>
-		<div class="switch" [ngSwitch]="value">
-			<app-slim>
-			<div class="description"
-			*ngSwitchDefault>
+  <div class="content">
+    <ul class="list">
+      <li [class.active]="value == 1" (click)="setActive(1)">
+        {{'Question1' | translate}}
+      </li>
+      <li [class.active]="value == 2" (click)="setActive(2)">
+        {{'Question2' | translate}}
+      </li>
+      <li [class.active]="value == 3" (click)="setActive(3)">
+        {{'Question3' | translate}}
+      </li>
+      <li [class.active]="value == 4" (click)="setActive(4)">
+        {{'Question4' | translate}}
+      </li>
+      <li [class.active]="value == 5" (click)="setActive(5)">
+        {{'Question5' | translate}}
+      </li>
+    </ul>
+    <div class="switch" [ngSwitch]="value">
+<!--      <app-slim>-->
+        <div class="description"
+             *ngSwitchDefault>
 
-					<p>
-						{{'Answer1p1' | translate}}
-					</p>
+          <p>
+            {{'Answer1p1' | translate}}
+          </p>
 
-					<p>
-						{{'Answer1p2' | translate}}
-					</p>
+          <p>
+            {{'Answer1p2' | translate}}
+          </p>
 
-					<p>
-						{{'Answer1p3' | translate}}
-					<p>
+          <p>
+            {{'Answer1p3' | translate}}
+          <p>
 
-					<ul>
-						<li>
-							{{'Answer1l1' | translate}}
-						</li>
+          <ul>
+            <li>
+              {{'Answer1l1' | translate}}
+            </li>
 
-						<li>
-							{{'Answer1l2' | translate}}
-						</li>
+            <li>
+              {{'Answer1l2' | translate}}
+            </li>
 
-						<li>
-							{{'Answer1l3' | translate}}
-						</li>
-					</ul>
-
-
-					<p>{{'Answer1p4' | translate}}</p>
-					<ul>
-						<li>
-							{{'Answer1l4' | translate}}
-						</li>
-
-						<li>
-
-							{{'Answer1l5' | translate}}
-						</li>
-
-						<li>
-							{{'Answer1l6' | translate}}
-						</li>
-						<li>
-							{{'Answer1l7' | translate}}
-						</li>
-					</ul>
-			</div>
+            <li>
+              {{'Answer1l3' | translate}}
+            </li>
+          </ul>
 
 
-			<div class="description" *ngSwitchCase="2">
-					<p>
-						{{'Answer2p1' | translate}}
-					</p>
+          <p>{{'Answer1p4' | translate}}</p>
+          <ul>
+            <li>
+              {{'Answer1l4' | translate}}
+            </li>
 
-					<p>
-						{{'Answer2p2' | translate}}
-					</p>
+            <li>
 
-					<p>
-						{{'Answer2p3' | translate}}
-					</p>
+              {{'Answer1l5' | translate}}
+            </li>
 
-
-					<p>
-						{{'Answer2p4' | translate}}
-					</p>
-
-					<p>
-						{{'Answer2p5' | translate}}
-					</p>
-					<p>
-						{{'Answer2p6' | translate}}
-					</p>
-			</div>
+            <li>
+              {{'Answer1l6' | translate}}
+            </li>
+            <li>
+              {{'Answer1l7' | translate}}
+            </li>
+          </ul>
+        </div>
 
 
-			<div class="description" *ngSwitchCase="3">
-					<p>
-							{{'Answer3p1' | translate}}
-						</p>
-						<ul>
-							<li>
-								{{'Answer3l1' | translate}}
-							</li>
-							<li>
-								{{'Answer3l2' | translate}}
-							</li>
-						</ul>
-						<p>
-							{{'Answer3p2' | translate}}
-						</p>
-			</div>
+        <div class="description" *ngSwitchCase="2">
+          <p>
+            {{'Answer2p1' | translate}}
+          </p>
 
-			<div class="description" *ngSwitchCase="4">
-					<p>
-						{{'Answer4p' | translate}}
-					</p>
-			</div>
-			<div class="description" *ngSwitchCase="5">
-					<p>
-						{{'Answer5p1' | translate}}
-					</p>
-					<p>
-						{{'Answer5p2' | translate}}
-					</p>
-			</div>
-			</app-slim>
-		</div>
-	</div>
+          <p>
+            {{'Answer2p2' | translate}}
+          </p>
+
+          <p>
+            {{'Answer2p3' | translate}}
+          </p>
+
+
+          <p>
+            {{'Answer2p4' | translate}}
+          </p>
+
+          <p>
+            {{'Answer2p5' | translate}}
+          </p>
+          <p>
+            {{'Answer2p6' | translate}}
+          </p>
+        </div>
+
+
+        <div class="description" *ngSwitchCase="3">
+          <p>
+            {{'Answer3p1' | translate}}
+          </p>
+          <ul>
+            <li>
+              {{'Answer3l1' | translate}}
+            </li>
+            <li>
+              {{'Answer3l2' | translate}}
+            </li>
+          </ul>
+          <p>
+            {{'Answer3p2' | translate}}
+          </p>
+        </div>
+
+        <div class="description" *ngSwitchCase="4">
+          <p>
+            {{'Answer4p' | translate}}
+          </p>
+        </div>
+        <div class="description" *ngSwitchCase="5">
+          <p>
+            {{'Answer5p1' | translate}}
+          </p>
+          <p>
+            {{'Answer5p2' | translate}}
+          </p>
+        </div>
+<!--      </app-slim>-->
+    </div>
+  </div>
 </div>
