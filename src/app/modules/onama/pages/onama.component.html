@@ -1,5 +1,5 @@
 <app-header [show]="img" [img]="img"></app-header>
-<app-ribbon style="gold">GOLD INVEST GRADNJA DOO</app-ribbon>
+<app-ribbon [style]="'gold'">GOLD INVEST GRADNJA DOO</app-ribbon>
 <app-wrapper>
 
 	<p>
@@ -11,7 +11,7 @@
 	</app-facts>
 </app-wrapper>
 <app-faq></app-faq>
-<app-ribbon style="gold">{{'Location' | translate}}</app-ribbon>
+<app-ribbon [style]="'gold'">{{'Location' | translate}}</app-ribbon>
 <div class="container-fluid" style="height: 350px">
 <!--	<app-google-map [isContact]="true" style="width: 100%;height: 100%;"></app-google-map>-->
 </div>
