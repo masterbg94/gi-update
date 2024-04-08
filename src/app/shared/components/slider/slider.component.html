@@ -1,41 +1,31 @@
 <div class="header-slider" [class.switching]="switching"
      [ngStyle]="{'background-image': 'url(/assets/img/' + background + ')'}">
-
-    <div class="overlay"></div>
-
-    <div class="content">
-        <div class="navigation prev" (click)="prevSlide()"></div>
-        <div class="navigation next" (click)="nextSlide()"></div>
-
-        <div class="wrapper">
-
-            <ng-container *ngIf="!slidesQuery.length">
-                <h1>Greska prilikom ucitavanja slidera</h1>
-                <h2>Proverite da li slider ima dovoljno elemenata</h2>
-            </ng-container>
-
-            <ng-container *ngIf="slidesQuery.length">
-                <h1 #title [class.none]="!showTitle"></h1>
-                <h2 #subTitle [class.none]="!showSubTitle"></h2>
-
-                <p #description [class.none]="!showDescription"></p>
-
-                <a class="btn btn-gold" [class.none]="!showButton" [routerLink]="slides[activeSlide]?.link" #button></a>
-            </ng-container>
-        </div>
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="navigation prev" (click)="prevSlide()"></div>
+    <div class="navigation next" (click)="nextSlide()"></div>
+    <div class="wrapper">
+      <ng-container *ngIf="!slidesQuery.length">
+        <h1>Greska prilikom ucitavanja slidera</h1>
+        <h2>Proverite da li slider ima dovoljno elemenata</h2>
+      </ng-container>
+      <ng-container *ngIf="slidesQuery.length">
+        <h1 #title [class.none]="!showTitle"></h1>
+        <h2 #subTitle [class.none]="!showSubTitle"></h2>
+        <p #description [class.none]="!showDescription"></p>
+        <a class="btn btn-gold" [class.none]="!showButton" [routerLink]="slides[activeSlide]?.link" #button></a>
+      </ng-container>
     </div>
-    <div class="info">
-
-        <div class="wrapper">
-
-            <div class="pager">
-                <div *ngFor="let slide of slides; let index = index" [class.active]="index == activeSlide"></div>
-            </div>
-
-            <p>
-                {{'mission1' | translate}}
-				<br><strong>{{'mission2'| translate}}</strong>
-            </p>
-        </div>
+  </div>
+  <div class="info">
+    <div class="wrapper">
+      <div class="pager">
+        <div *ngFor="let slide of slides; let index = index" [class.active]="index == activeSlide"></div>
+      </div>
+      <p>
+        {{'mission1' | translate}}
+        <br><strong>{{'mission2'| translate}}</strong>
+      </p>
     </div>
+  </div>
 </div>
