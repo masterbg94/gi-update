@@ -26,7 +26,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     HttpClientModule,
     BrowserModule,
-    BrowserAnimationsModule,
+    // BrowserAnimationsModule,
     NavMenuModule,
     FooterModule,
     FactsModule,
@@ -37,7 +37,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
-      }
+      },
+      defaultLanguage: 'sr'
     }),
     NgbModule
   ],

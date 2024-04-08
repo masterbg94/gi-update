@@ -77,9 +77,10 @@ export class ObjektiComponent implements OnInit, OnDestroy {
         this.avaiableAptartman(this.activeBuilding);
         this.getBuildingEquipment(this.activeBuilding.id);
         this.subscription = this.garageService.getAllGaragesByBuildingId(this.buildingId).subscribe(
-          garages => this.garages = garages;
-      )
-        ;
+          (garages: any[]) => {
+            this.garages = garages
+          }
+      );
       });
     this._changeDetetcion();
   }

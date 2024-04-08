@@ -4,8 +4,8 @@ import {CommonModule} from '@angular/common';
 import {BlockListComponent} from './block-list.component';
 import {BlockListItemComponent} from './block-list-item.component';
 import { RouterModule} from '@angular/router';
-import {NgBoxModule} from 'ngbox/ngbox.module';
-import {NgBoxService} from 'ngbox/ngbox.service';
+// import {NgBoxModule} from 'ngbox/ngbox.module';
+// import {NgBoxService} from 'ngbox/ngbox.service';
 import {TranslateModule} from "@ngx-translate/core";
 import {ArraySortPipe} from '../../pipes/filterArrayPipe';
 
@@ -13,7 +13,7 @@ import {ArraySortPipe} from '../../pipes/filterArrayPipe';
     imports: [
         CommonModule,
 		RouterModule,
-		NgBoxModule,
+		// NgBoxModule,
 		TranslateModule
     ],
     exports: [
@@ -26,7 +26,7 @@ import {ArraySortPipe} from '../../pipes/filterArrayPipe';
 		ArraySortPipe
     ],
 	providers: [
-		NgBoxService
+		// NgBoxService
 	]
 })
 export class BlockListModule {}

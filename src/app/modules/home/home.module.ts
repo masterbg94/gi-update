@@ -9,7 +9,7 @@ import {SplitViewModule} from '../../shared/components/split-view/split-view.mod
 import {VideoModule} from '../../shared/components/video/video.module';
 import {WrapperModule} from '../../shared/components/wrapper/wrapper.module';
 import {BlockListModule} from '../../shared/components/block-list/block-list.module';
-import {FaqModule} from '../../shared/components/faq/faq.module';
+// import {FaqModule} from '../../shared/components/faq/faq.module';
 import {MapModule} from '../../shared/components/map/map.module';
 import {FactsModule} from '../../shared/components/facts/facts.module';
 import {TranslateModule} from "@ngx-translate/core";
@@ -17,22 +17,23 @@ import {CommonModule} from '@angular/common';
 
 
 @NgModule({
-    imports: [
-    	CommonModule,
-        HomeRoutingModule,
-	    TranslateModule,
-        SliderModule,
-        RibbonModule,
-        SplitViewModule,
-        VideoModule,
-        WrapperModule,
-        BlockListModule,
-        FaqModule,
-        MapModule,
-		FactsModule
-    ],
-    declarations: [
-        HomeComponent
-    ]
+  imports: [
+    CommonModule,
+    HomeRoutingModule,
+    TranslateModule,
+    SliderModule,
+    RibbonModule,
+    SplitViewModule,
+    VideoModule,
+    WrapperModule,
+    BlockListModule,
+    // FaqModule,
+    MapModule,
+    FactsModule
+  ],
+  declarations: [
+    HomeComponent
+  ]
 })
-export class HomeModule {}
+export class HomeModule {
+}
