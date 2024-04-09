@@ -5,16 +5,17 @@ import {GoogleMapModule} from '../google-map/google-map.module';
 import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
-    imports: [
-        CommonModule,
-		GoogleMapModule,
-		TranslateModule
-    ],
-    exports: [
-        MapComponent
-    ],
-    declarations: [
-        MapComponent
-    ]
+  imports: [
+    CommonModule,
+    GoogleMapModule,
+    TranslateModule
+  ],
+  exports: [
+    MapComponent
+  ],
+  declarations: [
+    MapComponent
+  ]
 })
-export class MapModule {}
+export class MapModule {
+}

@@ -1,0 +1,14 @@
+.google-map-gi {
+  height: 100%;
+  max-height: 500px;
+  width: 100%;
+  display: flex;
+
+  ::ng-deep{
+    .map-container {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+}
