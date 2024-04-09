@@ -9,7 +9,6 @@ import {BuildingService} from '../../../shared/services/building.service';
 import {BuildingModel, Equipment, Floor} from '../../../shared/model/building.model';
 import {FloorService} from '../../../shared/services/floor.service';
 import {ApartmentService} from '../../../shared/services/apartment.service';
-import {forEach} from '@angular/router/src/utils/collection';
 import {EquipmentService} from '../../../shared/services/equipment.service';
 
 @Component({

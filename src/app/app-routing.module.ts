@@ -26,23 +26,22 @@ const routes: Routes = [
     path: 'onama',
     loadChildren: () => import('./modules/onama/onama.module').then(m => m.OnamaModule),
   },
-  /*
   {
     path: 'objekat/:id',
     loadChildren: () => import('./modules/objekti/objekti.module').then(m => m.ObjektiModule),
   },
   {
     path: 'objekat/:id/apartman/:aid',
-    loadChildren: () => import('app/modules/apartman-detail/apartman-detail.module').then(m => m.ApartmanDetailModule),
+    loadChildren: () => import('./modules/apartman-detail/apartman-detail.module').then(m => m.ApartmanDetailModule),
   },
   {
     path: 'login',
-    loadChildren: () => import('app/modules/login/login.module').then(m => m.LoginModule),
+    loadChildren: () => import('./modules/login/login.module').then(m => m.LoginModule),
   },
   {
     path: 'admin',
-    loadChildren: () => import('app/modules/admin/admin.module').then(m => m.AdminModule),
-  },*/
+    loadChildren: () => import('./modules/admin/admin.module').then(m => m.AdminModule),
+  },
 ];
 
 @NgModule({

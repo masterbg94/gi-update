@@ -11,6 +11,6 @@ export class FloorService {
 
 	getBuildingFloors(buildingId: number): Observable<Floor[]>
 	{
-		return this.http.get(`${API_BASE}/buildings/${buildingId}/floors`);
+		return this.http.get<Floor[]>(`${API_BASE}/buildings/${buildingId}/floors`);
 	}
 }

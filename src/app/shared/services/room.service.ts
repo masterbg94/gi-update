@@ -10,6 +10,6 @@ export class RoomService {
 	constructor(private http:HttpClient){}
 
 	 getRoomsByApartmentId(apartmentId:number):Observable<Room[]>{
-		return this.http.get(`${API_BASE}/floors/apartments/${apartmentId}/rooms`);
+		return this.http.get<Room[]>(`${API_BASE}/floors/apartments/${apartmentId}/rooms`);
 	 }
 }

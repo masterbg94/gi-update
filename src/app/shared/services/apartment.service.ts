@@ -19,7 +19,7 @@ export class ApartmentService
 	}
 
 	getApartmentId(apartmentId:any):Observable<Apartman>{
-		return this.http.get(`${API_BASE}/floors/apartments/${apartmentId}`);
+		return this.http.get<Apartman>(`${API_BASE}/floors/apartments/${apartmentId}`);
 	}
 
 	updateApartment(apartmentId: any, status: string): Observable<any>{

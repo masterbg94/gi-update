@@ -1,4 +1,4 @@
-<ngbox></ngbox>
+<!--<ngbox></ngbox>-->
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8">
@@ -16,7 +16,7 @@
 			<button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
 		</div>
 		<div class="col-sm-4" *ngIf="apartment && apartment?.imgHailight;else aptNoPic">
-			<div ng-box [src]="'../../../../assets/img/' + apartment.imgHailight"
+			<div [src]="'../../../../assets/img/' + apartment.imgHailight"
            [image]="true"
            [cache]="true"
            [style.display.none]="title"

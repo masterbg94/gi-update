@@ -11,6 +11,6 @@ export class EquipmentService{
 	constructor(private http:HttpClient){}
 
 	getEquipmentByBuildingId(buildingId:number): Observable<Equipment[]> {
-		return this.http.get(`${API_BASE}/buildings/${buildingId}/equipment`)
+		return this.http.get<Equipment[]>(`${API_BASE}/buildings/${buildingId}/equipment`)
 	}
 }
