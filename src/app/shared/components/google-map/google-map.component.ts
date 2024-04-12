@@ -1,9 +1,9 @@
-import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, ViewChild} from '@angular/core';
 import {BuildingModel, Location} from '../../model/building.model';
 
 import {BuildingService} from '../../services/building.service';
 import {LocationService} from '../../services/location.service';
-
+import {MapInfoWindow, MapMarker} from "@angular/google-maps";
 
 @Component({
   selector: 'app-google-map',
@@ -13,25 +13,24 @@ import {LocationService} from '../../services/location.service';
     BuildingService,
     LocationService
   ],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class GoogleMapComponent implements OnInit {
   // initial center position for the map
-  @Input() activeBuilding: BuildingModel;
-  @Input() location: Location;
-  @Input() buildingId: any;
-  @Input() isContact: boolean = false
-  lat: number;
-  lng: number;
+  @ViewChild(MapInfoWindow) infoWindow: MapInfoWindow;
   @Input() text: string = "";
   @Input() address: string = "";
   @Input() city: string = "";
+  @Input() activeBuilding: BuildingModel;
+  @Input() location: Location;
+  @Input() buildingId: any;
+  @Input() isContact: boolean = false;
+  lat: number;
+  lng: number;
   zoom = 15;
-
-  // zoom = 12;
-  center = {lat: 44.78527202477181, lng: 20.546562303967626};
-
+  // center = {lat: 42.27917530724483, lng: 18.83734795968046};
+  center:{lat:number,lng:number};
   options: google.maps.MapOptions = {
     // mapTypeId: 'hybrid',
     zoomControl: true,
@@ -39,20 +38,18 @@ export class GoogleMapComponent implements OnInit {
     disableDoubleClickZoom: true,
     maxZoom: 15,
     minZoom: 8,
-    center: this.center
+    center: null
   };
-  // options2: google.maps.MapOptions = {
-  //   center: this.center,
-  //   zoom: 4
-  // };
 
-  constructor(private locationService: LocationService,
-              private detector: ChangeDetectorRef) {
+  constructor(
+    private locationService: LocationService,
+    private detector: ChangeDetectorRef
+  ) {
   }
 
   ngOnInit() {
-    this.getBuildingLocation();
     console.log('@input this.activeBuilding);', this.activeBuilding);
+    this.getBuildingLocation();
   }
 
   private getBuildingLocation(): void {
@@ -65,37 +62,22 @@ export class GoogleMapComponent implements OnInit {
       this.city = "Zlatibor";
       this.center = {lat: this.lat, lng: this.lng};
       this.options.center = this.center;
-      console.log('this.center', this.center);
-      console.log('this.options', this.options);
       return;
-    }
-
-    this.locationService
-      .getLocationByBuildingId(this.buildingId)
-      .subscribe((location: any) => {
+    } else {
+      // TODO : First test is @isContact value
+      this.locationService.getLocationByBuildingId(this.buildingId).subscribe((location: any) => {
         this.location = location;
-        console.log('location', location);
-        const lat = location[0]?.lat;
-        const lng = location[0]?.lng;
-
-        if (typeof lat === 'string') {
-          this.lat = parseFloat(lat);
-        }
-        if (typeof lng === 'string') {
-          this.lng = parseFloat(lng);
-        }
+        this.center = {lat: Number(location[0]?.lat), lng: Number(location[0]?.lng)}
+        this.options.center = this.center;
         this.text = this.activeBuilding.name;
         this.address = this.activeBuilding.adr;
         this.city = 'Zlatibor';
-
-        // detect Location Change
-        // this.detectChanges();
-        this.detector.detectChanges();
-        console.log('this.location', this.location);
-        this.options.center = {lat: this.lat, lng: this.lng};
-        this.detectChanges();
       });
+    }
+  }
 
+  openInfoWindow(marker: MapMarker) {
+    this.infoWindow.open(marker);
   }
 
   private detectChanges(): void {

@@ -1,5 +1,4 @@
 import {NgModule} from '@angular/core';
-
 import {ContactComponent} from './pages/contact/contact.component';
 import {ContactRoutingModule} from './contact-routing.module';
 import {HeaderModule} from '../../shared/components/header/header.module';
@@ -8,23 +7,24 @@ import {InfoCircleModule} from '../../shared/components/info-circle/info-circle.
 import {ContactFormModule} from '../../shared/components/contact-form/contact-form.module';
 import {FormsModule} from '@angular/forms';
 import {RibbonModule} from '../../shared/components/ribbon/ribbon.module';
-
 import {TranslateModule} from "@ngx-translate/core";
+import {GoogleMapModule} from "../../shared/components/google-map/google-map.module";
 
 @NgModule({
-	imports: [
-		ContactRoutingModule,
-		HeaderModule,
-		ContainerModule,
-		InfoCircleModule,
-		ContactFormModule,
-		FormsModule,
-		RibbonModule,
-		TranslateModule
-
-	],
-	declarations: [
-		ContactComponent
-	]
+  imports: [
+    ContactRoutingModule,
+    HeaderModule,
+    ContainerModule,
+    InfoCircleModule,
+    ContactFormModule,
+    FormsModule,
+    RibbonModule,
+    TranslateModule,
+    GoogleMapModule
+  ],
+  declarations: [
+    ContactComponent
+  ]
 })
-export class ContactModule {}
+export class ContactModule {
+}

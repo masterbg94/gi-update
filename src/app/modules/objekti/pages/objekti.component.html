@@ -26,15 +26,15 @@
 <app-ribbon [style]="'dark'">{{'ApartmentLocation' | translate}}</app-ribbon>
 
 <div class="container" *ngIf="buildingId == 9">
-  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId"></app-google-map>
+  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId" [isContact]="false"></app-google-map>
   <app-ribbon [style]="'dark'">{{'Finished' | translate}}</app-ribbon>
 </div>
 <div class="container" *ngIf="buildingId == 11">
-  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId"></app-google-map>
+  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId" [isContact]="false"></app-google-map>
   <app-ribbon [style]="'dark'">{{'Finished' | translate}}</app-ribbon>
 </div>
 <div class="container" *ngIf="buildingId == 12">
-  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId"></app-google-map>
+  <app-google-map *ngIf="activeBuilding" [activeBuilding]="activeBuilding" [buildingId]="buildingId" [isContact]="false"></app-google-map>
   <app-ribbon [style]="'dark'">{{'Finished' | translate}}</app-ribbon>
 </div>
 

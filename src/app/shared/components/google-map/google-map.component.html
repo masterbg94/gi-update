@@ -37,6 +37,15 @@
   [zoom]="zoom"
   [options]="options"
   [center]="center"
+  *ngIf="options.center"
 >
-  <map-marker [position]="center"  />
+  <map-marker [position]="center" #marker="mapMarker" (mapClick)="openInfoWindow(marker)" >
+  </map-marker>
+  <map-info-window>
+    <strong style="color: #e7a932;text-align: center">
+      {{text | translate}}<br>
+      {{address}}<br>
+      {{city}}
+    </strong>
+  </map-info-window>
 </google-map>
