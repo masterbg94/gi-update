@@ -1,15 +1,28 @@
 <div class="container">
 	<div class="row">
-		<div class="col-sm-8">
-			<h2 ><span class="vila">VILA</span><span class="leonardo">LEONARDO</span><span class="iv">{{activeBuilding?.gallery}}</span></h2>
-			<p [innerHtml]="activeBuilding?.description | translate"></p>
-			<button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
-		</div>
-		<div class="col-sm-4">
-			<button class="btn btn-info" [routerLink]="'/galerija/leonardo' + activeBuilding?.gallery">
-			<img style="width: 100%;height: auto;" [src]="'../../../../assets/img/' + activeBuilding?.pdfCatalogImage + '.png'">
-				<p class="image text-uppercase">{{'Gallery' | translate | uppercase}} {{activeBuilding?.name}}</p>
-			</button>
-		</div>
+  <div class="col-6 col-md-6">
+    <h2 ><span class="vila">VILA</span><span class="leonardo">LEONARDO</span><span class="iv">{{activeBuilding?.gallery}}</span></h2>
+    <p [innerHtml]="activeBuilding?.description | translate"></p>
+    <button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
+  </div>
+  <div class="col-4 col-md-4 offset-md-2">
+    <button class="btn btn-info" [routerLink]="'/galerija/leonardo' + activeBuilding?.gallery">
+      <img style="width: 100%;height: auto;" [src]="'../../../../assets/img/' + activeBuilding?.pdfCatalogImage + '.png'">
+      <p class="image text-uppercase">{{'Gallery' | translate | uppercase}} {{activeBuilding?.name}}</p>
+    </button>
+  </div>
 	</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+  </div>
 </div>

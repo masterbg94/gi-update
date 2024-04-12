@@ -14,21 +14,23 @@ import {BuildingModule} from '../../shared/components/building/building.module';
 import {BlockListModule} from '../../shared/components/block-list/block-list.module';
 import {HttpClientModule} from '@angular/common/http';
 import {TranslateModule} from "@ngx-translate/core";
+import {GoogleMapModule} from "../../shared/components/google-map/google-map.module";
 
 @NgModule({
-	imports: [
-		HttpClientModule,
-		CommonModule,
-		ObjektiRoutingModule,
-		ContainerModule,
-		HeaderModule,
-		RibbonModule,
-		VideoModule,
-		ReserveModule,
-		BuildingModule,
-		BlockListModule,
-		TranslateModule
-	],
+  imports: [
+    HttpClientModule,
+    CommonModule,
+    ObjektiRoutingModule,
+    ContainerModule,
+    HeaderModule,
+    RibbonModule,
+    VideoModule,
+    ReserveModule,
+    BuildingModule,
+    BlockListModule,
+    TranslateModule,
+    GoogleMapModule
+  ],
 	declarations: [
 		ObjektiComponent,
 	]

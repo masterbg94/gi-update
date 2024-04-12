@@ -21,7 +21,7 @@ export class GoogleMapComponent implements OnInit {
   @Input() activeBuilding: BuildingModel;
   @Input() location: Location;
   @Input() buildingId: any;
-  @Input() isContact: boolean;
+  @Input() isContact: boolean = false
   lat: number;
   lng: number;
   @Input() text: string = "";
@@ -33,18 +33,18 @@ export class GoogleMapComponent implements OnInit {
   center = {lat: 44.78527202477181, lng: 20.546562303967626};
 
   options: google.maps.MapOptions = {
-    mapTypeId: 'hybrid',
-    zoomControl: false,
+    // mapTypeId: 'hybrid',
+    zoomControl: true,
     scrollwheel: false,
     disableDoubleClickZoom: true,
     maxZoom: 15,
     minZoom: 8,
     center: this.center
   };
-  options2: google.maps.MapOptions = {
-    center: this.center,
-    zoom: 4
-  };
+  // options2: google.maps.MapOptions = {
+  //   center: this.center,
+  //   zoom: 4
+  // };
 
   constructor(private locationService: LocationService,
               private detector: ChangeDetectorRef) {
@@ -52,15 +52,31 @@ export class GoogleMapComponent implements OnInit {
 
   ngOnInit() {
     this.getBuildingLocation();
+    console.log('@input this.activeBuilding);', this.activeBuilding);
   }
 
   private getBuildingLocation(): void {
+    // TODO : First test is @isContact value
+    if (this.isContact) {
+      this.lat = 43.72572172255676;
+      this.lng = 19.696842416067323;
+      this.text = "Gold Invest Gradnja";
+      this.address = "Kraljev Trg bb";
+      this.city = "Zlatibor";
+      this.center = {lat: this.lat, lng: this.lng};
+      this.options.center = this.center;
+      console.log('this.center', this.center);
+      console.log('this.options', this.options);
+      return;
+    }
+
     this.locationService
       .getLocationByBuildingId(this.buildingId)
       .subscribe((location: any) => {
         this.location = location;
-        const lat = location[0].lat;
-        const lng = location[0].lng;
+        console.log('location', location);
+        const lat = location[0]?.lat;
+        const lng = location[0]?.lng;
 
         if (typeof lat === 'string') {
           this.lat = parseFloat(lat);
@@ -76,15 +92,10 @@ export class GoogleMapComponent implements OnInit {
         // this.detectChanges();
         this.detector.detectChanges();
         console.log('this.location', this.location);
+        this.options.center = {lat: this.lat, lng: this.lng};
+        this.detectChanges();
       });
-    if (this.isContact) {
-      this.lat = 43.72572172255676;
-      this.lng = 19.696842416067323;
-      this.text = "Gold Invest Gradnja";
-      this.address = "Kraljev Trg bb";
-      this.city = "Zlatibor";
-      return;
-    }
+
   }
 
   private detectChanges(): void {
