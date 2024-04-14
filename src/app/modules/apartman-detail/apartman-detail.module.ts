@@ -10,23 +10,25 @@ import {ApartmanDetailFactsModule} from '../../shared/components/apartman-detail
 import {BlockListModule} from '../../shared/components/block-list/block-list.module';
 import {CommonModule} from '@angular/common';
 import {TranslateModule} from "@ngx-translate/core";
+import {GoogleMapModule} from "../../shared/components/google-map/google-map.module";
 
 @NgModule({
-	imports: [
-		CommonModule,
-		HeaderModule,
-		VideoModule,
-		RibbonModule,
-		ApartmanDetailRoutingModule,
-		ReserveApartmanModule,
-		ApartmanDetailFactsModule,
-		BlockListModule,
-		TranslateModule
-
-	],
-	declarations: [
-		ApartmanDetailComponent
-	]
+  imports: [
+    CommonModule,
+    HeaderModule,
+    VideoModule,
+    RibbonModule,
+    ApartmanDetailRoutingModule,
+    ReserveApartmanModule,
+    ApartmanDetailFactsModule,
+    BlockListModule,
+    TranslateModule,
+    GoogleMapModule
+  ],
+  declarations: [
+    ApartmanDetailComponent
+  ]
 })
 
-export class ApartmanDetailModule {}
+export class ApartmanDetailModule {
+}
