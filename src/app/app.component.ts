@@ -36,6 +36,5 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.language = UserService.getUserLanguage();
-    console.log('isDevMode()', isDevMode());
   }
 }

@@ -2,7 +2,6 @@
 @import 'app/style/_palette.scss';
 
 * {
-
   margin: 0;
   padding: 0;
   outline: none;
@@ -16,7 +15,6 @@ html, body {
 }
 
 .btn {
-
   display: inline-flex;
   padding: 15px 30px;
   cursor: pointer;
@@ -73,14 +71,3 @@ html, body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-///* Importing Bootstrap SCSS file. */
-//@import 'node_modules/bootstrap/scss/bootstrap';
-
-/* Importing Bootstrap SCSS file. */
-//@import "./node_modules/bootstrap/scss/bootstrap";
-
-/* Importing Datepicker SCSS file. */
-//@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
-
-//@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css";

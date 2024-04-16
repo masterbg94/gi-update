@@ -1,15 +1,13 @@
 @import "../../../style/palette";
 
 .map {
-
   display: flex;
   flex-direction: column;
   margin: auto;
   width: 1200px;
-  max-width: 90%;
+  max-width: 100%;
 
   h1 {
-
     background: $gi-charcoal;
     padding: 20px;
     color: #fff;
@@ -19,7 +17,6 @@
     border-top: 30px solid $gi-gold;
 
     span {
-
       display: block;
       color: $gi-gold;
       font-weight: 300;
@@ -27,17 +24,14 @@
   }
 
   .content {
-
     display: flex;
 
     .m {
-
       display: flex;
       flex-grow: 2;
     }
 
     .description {
-
       display: flex;
       flex-grow: 1;
       flex-direction: column;
@@ -46,19 +40,16 @@
       align-content: space-around;
 
       .block {
-
         color: #fff;
         margin-bottom: 20px;
-		  font-size: 16px;
-		  font-weight: 300;
+        font-size: 16px;
+        font-weight: 300;
 
         &:last-child {
-
           margin-bottom: 0;
         }
 
         span {
-
           display: block;
         }
       }
@@ -66,9 +57,9 @@
   }
 }
 
-@media screen and (max-width: 570px){
-	.content {
-		max-width: 100%;
-		flex-direction: column;
-	}
+@media screen and (max-width: 570px) {
+  .content {
+    max-width: 100%;
+    flex-direction: column;
+  }
 }

@@ -1,7 +1,6 @@
 @import "../../../style/palette";
 
 .faq {
-
   background: $gi-charcoal;
   padding: 40px;
   color: #fff;
@@ -24,19 +23,18 @@
     justify-content: space-between;
 
     .list {
-
       min-width: 400px;
       list-style: none;
       margin-right: 50px;
-
+      padding: 0;
 
       li {
 
         background: rgba($gi-gold, .2);
         padding: 20px 40px 20px 20px;
         cursor: pointer;
-		  font-size: 14px;
-		  font-weight: 300;
+        font-size: 14px;
+        font-weight: 300;
 
         transition: background .2s;
 
@@ -77,12 +75,12 @@
 
     .description {
 
-		padding-right: 20px;
+      padding-right: 20px;
 
       p {
-		font-size: 16px;
+        font-size: 16px;
         margin-bottom: 20px;
-		  font-weight: 300;
+        font-weight: 300;
 
         &:last-child {
 
@@ -94,13 +92,13 @@
 
         margin: 20px 0 0 20px;
         list-style: none;
-		  padding-bottom: 20px;
+        padding-bottom: 20px;
 
         li {
 
           position: relative;
-			font-size: 14px;
-			font-weight: 300;
+          font-size: 14px;
+          font-weight: 300;
 
           &:before {
 
@@ -117,39 +115,43 @@
     }
   }
 }
-@media screen and (max-width: 880px){
-	.content {
-		flex-direction: column;
-		.description {
-			padding-top: 20px;
-			p {
-				font-weight: 300;
-				font-size: 16px;
-			}
-		}
-	}
-	li::after {
-		display: none;
-	}
-
-	.faq {
-		padding: 40px 10px 40px 10px;
-	}
-}
 
 .disabled {
-	display: none;
+  display: none;
 }
-@media screen and (max-width:768px){
-	.content {
-		.list {
-			min-width: 100% !important;
-			margin-right: 0;
-		}
-	}
-	.switch {
-		margin-top: 20px;
-	}
+
+@media screen and (max-width: 880px) {
+  .content {
+    flex-direction: column;
+
+    .description {
+      padding-top: 20px;
+
+      p {
+        font-weight: 300;
+        font-size: 16px;
+      }
+    }
+  }
+  li::after {
+    display: none;
+  }
+
+  .faq {
+    padding: 40px 10px 40px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    .list {
+      min-width: 100% !important;
+      margin-right: 0;
+    }
+  }
+  .switch {
+    margin-top: 20px;
+  }
 
 
 }

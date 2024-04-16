@@ -11,22 +11,22 @@ import {FactsModule} from '../../shared/components/facts/facts.module';
 import {WrapperModule} from '../../shared/components/wrapper/wrapper.module';
 import {FaqModule} from '../../shared/components/faq/faq.module';
 import {TranslateModule} from "@ngx-translate/core";
+import {GoogleMapModule} from "../../shared/components/google-map/google-map.module";
 
 @NgModule({
-	imports: [
-		OnamaRoutingModule,
-		TranslateModule,
-
-		HeaderModule,
-		ContainerModule,
-		InfoCircleModule,
-		RibbonModule,
-		RibbonModule,
-		FactsModule,
-		WrapperModule,
-		FaqModule
-
-	],
+  imports: [
+    OnamaRoutingModule,
+    TranslateModule,
+    HeaderModule,
+    ContainerModule,
+    InfoCircleModule,
+    RibbonModule,
+    RibbonModule,
+    FactsModule,
+    WrapperModule,
+    FaqModule,
+    GoogleMapModule
+  ],
 	declarations: [
 		OnamaComponent
 	]
