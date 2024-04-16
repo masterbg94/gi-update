@@ -1,11 +1,18 @@
-import {ChangeDetectionStrategy, Component, EventEmitter, Injectable, Input, OnInit, Output} from '@angular/core';
-import {ChangeDetectorRef} from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  EventEmitter,
+  Injectable,
+  Input,
+  OnInit,
+  Output
+} from '@angular/core';
 import {GarageModel} from '../../model/garage.model';
 import {GarageService} from '../../services/garage.service';
 
 import {Apartman, BuildingModel, Equipment, Floor} from '../../model/building.model';
-import {ActivatedRoute, NavigationEnd, NavigationStart, Router} from '@angular/router';
-import {ApartmentService} from '../../services/apartment.service';
+import {NavigationEnd, Router} from '@angular/router';
 
 @Component({
 
@@ -14,40 +21,22 @@ import {ApartmentService} from '../../services/apartment.service';
   styleUrls: ['./building.component.scss'],
   providers: [
     GarageService
-  ]
+  ],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 @Injectable()
 export class BuildingComponent implements OnInit {
-  @Input()
-  public garages: GarageModel[] = [];
-
-  @Input()
-  public isGarage: boolean;
-
+  @Input() public garages: GarageModel[] = [];
+  @Input() public isGarage: boolean;
   public objectRoute: any;
-
-  @Input()
-  buildingId: any;
-
-  @Input()
-  activeFloor: Floor;
-
-  @Input()
-  apartment: Apartman;
-
-  @Input()
-  floors: Floor;
-
-  @Input()
-  floorApartment: Apartman[];
-
-  @Input()
-  activeBuilding: BuildingModel;
-
+  @Input() buildingId: any;
+  @Input() activeFloor: Floor;
+  @Input() apartment: Apartman;
+  @Input() floors: Floor;
+  @Input() floorApartment: Apartman[];
+  @Input() activeBuilding: BuildingModel;
   @Input() equipment: Equipment[];
-
-  @Output()
-  floorName: EventEmitter<Floor> = new EventEmitter();
+  @Output() floorName: EventEmitter<Floor> = new EventEmitter();
   separatedGarage1 = null;
   separatedGarage2 = null;
   activeGarageNumber: number = null;

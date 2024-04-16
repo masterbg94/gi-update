@@ -13,7 +13,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import { ServiceWorkerModule } from '@angular/service-worker';
+import {ServiceWorkerModule} from '@angular/service-worker';
 // export function createTranslateLoader(http: Http) {
 //   return new TranslateStaticLoader(http, './assets/i18n', '.json');
 // }
@@ -42,6 +42,19 @@ export function HttpLoaderFactory(http: HttpClient) {
       defaultLanguage: 'sr'
     }),
     NgbModule,
+    /*
+    Konfiguracija za dev.serve.build mora imati
+    buildOptimizer,optimization false da bi bio isDevMode()
+    sto utice na ServiceWorkerModule
+    "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+    */
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

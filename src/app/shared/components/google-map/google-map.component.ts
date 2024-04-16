@@ -48,7 +48,6 @@ export class GoogleMapComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('@input this.activeBuilding);', this.activeBuilding);
     this.getBuildingLocation();
   }
 
