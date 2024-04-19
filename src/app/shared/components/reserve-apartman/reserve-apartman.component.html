@@ -16,13 +16,14 @@
 			<button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
 		</div>
 		<div class="col-sm-4" *ngIf="apartment && apartment?.imgHailight;else aptNoPic">
-			<div [src]="'../../../../assets/img/' + apartment.imgHailight"
+			<!--<div [src]="'../../../../assets/img/' + apartment.imgHailight"
            [image]="true"
            [cache]="true"
            [style.display.none]="title"
            style="z-index: 200;cursor: pointer;transition: 0.2s;height: 100%;width: 100%;">
 				<img [src]="'../../../../assets/img/' + apartment?.imgBase + '.png'">
-			</div>
+			</div>-->
+      <img [src]="'../../../../assets/img/' + apartment?.imgBase + '.png'">
 		</div>
     <ng-template #aptNoPic>
       <div class="col-sm-4">

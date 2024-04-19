@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+//@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
 @import 'app/style/_palette.scss';
 
 * {
@@ -9,9 +9,11 @@
 }
 
 html, body {
-
+  margin: 0;
+  //font-family: Roboto, "Helvetica Neue", sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  height: 100%;
 }
 
 .btn {
@@ -69,5 +71,4 @@ html, body {
   z-index: 6!important;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

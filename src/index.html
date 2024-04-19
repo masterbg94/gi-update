@@ -4,20 +4,31 @@
   <meta charset="utf-8">
   <title>Gold Invest Gradnja</title>
   <base href="/">
+<!--  TODO: Speed up loading time and defer some loadings
+ 1. Defer non-critical CSS and Javascript:
+
+Move the link tags for font-awesome.min.css and Google Maps API to the bottom of the <body> tag.
+This will allow the browser to render the content first without waiting for these external resources.
+2. Async non-critical Javascript:
+
+Move the Google Tag Manager and Meta Pixel Code scripts to the bottom of the <body> tag and wrap them in the <script async> tag.
+This tells the browser to load these scripts asynchronously while rendering the rest of the content.
+3. Preload critical resources:
+
+The Roboto font from Google Fonts is critical for rendering the text properly.
+You can keep the link tag for this font in the <head> section but consider using the preload attribute to prioritize its loading.
+-->
+
   <!--viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
   <meta name="viewport" content="width=device-width"/>
-  <!--  font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" onload="this.rel='stylesheet'">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons&amp;display=swap" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
-  <!--  Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--  favicon-->
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/x-icon" href="/assets/icons/favicon/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/favicon/apple-icon-72x72.png">
@@ -70,6 +81,8 @@
   <!-- End Meta Pixel Code -->
 </head>
 <body>
+<!--Font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4DSTN4X"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

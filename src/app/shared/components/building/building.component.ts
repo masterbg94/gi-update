@@ -22,7 +22,7 @@ import {NavigationEnd, Router} from '@angular/router';
   providers: [
     GarageService
   ],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 @Injectable()
 export class BuildingComponent implements OnInit {
