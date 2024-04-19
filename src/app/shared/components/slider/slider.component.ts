@@ -4,7 +4,6 @@ import {
 } from '@angular/core';
 
 import {SliderItemComponent} from './slider-item.component';
-import {TranslateServices} from '../../services/translate.service';
 import {TranslateService} from "@ngx-translate/core";
 
 @Component({
@@ -12,9 +11,7 @@ import {TranslateService} from "@ngx-translate/core";
   templateUrl: './slider.component.html',
   styleUrls: ['./slider.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [
-    TranslateServices
-  ]
+
 })
 export class SliderComponent implements AfterViewInit, OnInit {
   slides: SliderItemComponent[] = [];
@@ -35,7 +32,6 @@ export class SliderComponent implements AfterViewInit, OnInit {
   @Input('show') show = false;
 
   constructor(private changeDetector: ChangeDetectorRef,
-              private service: TranslateServices,
               private translate: TranslateService) {
   }
 
@@ -48,6 +44,7 @@ export class SliderComponent implements AfterViewInit, OnInit {
 
   ngOnInit() {
     this.screenWidth = window.innerWidth;
+    console.log('this.screenWidth', this.screenWidth);
     this.translate.onLangChange.subscribe(() => {
       this.Slide(0);
     });

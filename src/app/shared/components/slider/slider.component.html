@@ -17,7 +17,7 @@
       </ng-container>
     </div>
   </div>
-  <div class="info">
+  <div class="info" *ngIf="screenWidth>=1024">
     <div class="wrapper">
       <div class="pager">
         <div *ngFor="let slide of slides; let index = index" [class.active]="index == activeSlide"></div>

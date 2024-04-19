@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
-import {HomeRoutingModule} from './home-routing.module';
+import {CommonModule} from '@angular/common';
 
+import {HomeRoutingModule} from './home-routing.module';
 import {HomeComponent} from './pages/home/home.component';
 
 import {SliderModule} from '../../shared/components/slider/slider.module';
@@ -13,7 +14,6 @@ import {FaqModule} from '../../shared/components/faq/faq.module';
 import {MapModule} from '../../shared/components/map/map.module';
 import {FactsModule} from '../../shared/components/facts/facts.module';
 import {TranslateModule} from "@ngx-translate/core";
-import {CommonModule} from '@angular/common';
 
 
 @NgModule({

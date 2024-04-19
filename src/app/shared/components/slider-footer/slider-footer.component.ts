@@ -1,101 +1,95 @@
 import {
-	AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef, Input, OnChanges,
-	OnDestroy,
-	OnInit,
-	QueryList, ViewChild,
-	ViewChildren
+  AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, ContentChildren, ElementRef,
+  OnInit,
+  QueryList, ViewChild
 } from '@angular/core';
 import {SliderFooterItemComponent} from './slider-item-footer.component';
-import {TranslateServices} from '../../services/translate.service';
 import {TranslateService} from "@ngx-translate/core";
 
 
 @Component({
 
-	selector: 'app-slider-footer',
-	templateUrl: './slider-footer.component.html',
-	styleUrls: ['./slider-footer.component.scss'],
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	providers:[
-		TranslateServices
-	]
+  selector: 'app-slider-footer',
+  templateUrl: './slider-footer.component.html',
+  styleUrls: ['./slider-footer.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SliderFooterComponent implements AfterViewInit, OnInit {
 
-	slides: SliderFooterItemComponent[] = [];
+  slides: SliderFooterItemComponent[] = [];
 
-	activeSlide = 0;
+  activeSlide = 0;
 
-	switching = false;
+  switching = false;
 
-	@ContentChildren(SliderFooterItemComponent) slidesQuery: QueryList<SliderFooterItemComponent>;
+  @ContentChildren(SliderFooterItemComponent) slidesQuery: QueryList<SliderFooterItemComponent>;
 
-	@ViewChild('description') description: ElementRef;
-	@ViewChild('name') name: ElementRef;
+  @ViewChild('description') description: ElementRef;
+  @ViewChild('name') name: ElementRef;
 
-	activeProfileImage: string;
+  activeProfileImage: string;
 
-	constructor(private changeDetector: ChangeDetectorRef,private service:TranslateServices, private translateDefault:TranslateService) {
-
-
-	}
-
-	ngAfterViewInit() {
+  constructor(private changeDetector: ChangeDetectorRef, private translateDefault: TranslateService) {
 
 
-		this.slidesQuery.forEach((slide: SliderFooterItemComponent) => {
+  }
 
-			this.slides.push(slide);
-
-		});
-		this.setSlide();
-
-	}
-
-	ngOnInit(){
-		this.translateDefault.onLangChange.subscribe(() => {
-			this.slide(0);
-		});
-
-	}
-
-	slide(item) {
-		this.activeSlide =item;
-		this._switchSlide();
-	}
+  ngAfterViewInit() {
 
 
-	setSlide(): void {
+    this.slidesQuery.forEach((slide: SliderFooterItemComponent) => {
 
-		const slide = this.slides[this.activeSlide];
+      this.slides.push(slide);
 
-		this.description.nativeElement.innerText = slide.getDescription();
+    });
+    this.setSlide();
 
-		this.name.nativeElement.innerText = slide.getName();
+  }
 
-		this.activeProfileImage = slide.profile;
+  ngOnInit() {
+    this.translateDefault.onLangChange.subscribe(() => {
+      this.slide(0);
+    });
 
-		this._detectChanges();
-	}
+  }
 
-	Slide(item:any):void {
-		this.activeSlide = item;
-		this._switchSlide();
-		}
+  slide(item) {
+    this.activeSlide = item;
+    this._switchSlide();
+  }
 
-	private _switchSlide() {
-		this.switching = true;
 
-		setTimeout(() => {
+  setSlide(): void {
 
-			this.switching = false;
-			this.setSlide();
-		}, 500);
-	}
+    const slide = this.slides[this.activeSlide];
 
-	private _detectChanges(): void {
+    this.description.nativeElement.innerText = slide.getDescription();
 
-		this.changeDetector.markForCheck();
-	}
+    this.name.nativeElement.innerText = slide.getName();
+
+    this.activeProfileImage = slide.profile;
+
+    this._detectChanges();
+  }
+
+  Slide(item: any): void {
+    this.activeSlide = item;
+    this._switchSlide();
+  }
+
+  private _switchSlide() {
+    this.switching = true;
+
+    setTimeout(() => {
+
+      this.switching = false;
+      this.setSlide();
+    }, 500);
+  }
+
+  private _detectChanges(): void {
+
+    this.changeDetector.markForCheck();
+  }
 }
 
