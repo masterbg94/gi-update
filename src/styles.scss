@@ -32,7 +32,7 @@ html, body {
   }
 
   &-gold {
-    background: $gi-gold!important;
+    background: $gi-gold !important;
     color: $gi-charcoal;
 
     &:hover {
@@ -43,7 +43,7 @@ html, body {
 
   &-dark {
     background: $gi-charcoal;
-    color: #fff!important;
+    color: #fff !important;
   }
 }
 
@@ -67,8 +67,13 @@ html, body {
   margin-bottom: 40px;
 }
 
-.outerContainer.ng-tns-c11-0.ng-trigger.ng-trigger-showViewerTransition{
-  z-index: 6!important;
+.modal-backdrop-class {
+  opacity: 0.8!important;
+  background: rgba(0, 0, 0);
+}
+
+.outerContainer.ng-tns-c11-0.ng-trigger.ng-trigger-showViewerTransition {
+  z-index: 6 !important;
 }
 
 

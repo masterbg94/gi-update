@@ -22,27 +22,17 @@ import {FloorService} from '../../../shared/services/floor.service';
 })
 export class ApartmanDetailComponent implements OnInit
 {
-
 	img = '../../../../assets/img/leonardo5.png';
-
 	map = false;
-
 	buildingRouteId: number;
-
 	apartment: Apartman;
-
 	room:Room[];
-
 	equipment:Equipment[];
-
 	available:number;
 	reserved:number;
 	a:number;
-
 	activeFloor:Floor;
-
 	buildings:BuildingModel[];
-
 	activeBuilding: BuildingModel;
 
 	constructor(private route: ActivatedRoute,
@@ -134,7 +124,6 @@ export class ApartmanDetailComponent implements OnInit
 			.getBuildingFloors(this.activeBuilding.id)
 			.subscribe((floors: Floor[]) => {
 				this.activeBuilding.floors = floors;
-
 				this.activeBuilding.floors.forEach((floor: Floor) => {
 					this.getFloorApartments(floor);
 				});
@@ -147,13 +136,11 @@ export class ApartmanDetailComponent implements OnInit
 			.getApartmentsForFloor(floor.id)
 			.subscribe((apartments: Apartman[]) => {
 				floor.apartment = apartments;
-
 			});
 	}
 
 	_changeDetection(){
 		this.changeDetection.detectChanges();
 	}
-
 
 }

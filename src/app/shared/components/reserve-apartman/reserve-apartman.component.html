@@ -15,7 +15,10 @@
 			<p *ngIf="this.apartment?.id == 29 || this.apartment?.id ==30" style="margin: 0;padding-top: 0;">{{text | translate}}<p>
 			<button class="btn btn-gold" routerLink="/kontakt">{{'ReserveOnTime' | translate}}</button>
 		</div>
-		<div class="col-sm-4" *ngIf="apartment && apartment?.imgHailight;else aptNoPic">
+		<div class="col-sm-4" id="yes-picture"
+         *ngIf="apartment && apartment?.imgHailight;else aptNoPic"
+         (click)="openDialog(apartment?.imgHailight)"
+         style="cursor: pointer" >
 			<!--<div [src]="'../../../../assets/img/' + apartment.imgHailight"
            [image]="true"
            [cache]="true"
@@ -26,8 +29,8 @@
       <img [src]="'../../../../assets/img/' + apartment?.imgBase + '.png'">
 		</div>
     <ng-template #aptNoPic>
-      <div class="col-sm-4">
-        <img [src]="'../../../../assets/img/' + apartment?.imgBase + '.png'">
+      <div class="col-sm-4" id="no-picture" >
+        <img [src]="'../../../../assets/img/' + apartment?.imgBase + '.png'" >
       </div>
     </ng-template>
 	</div>

@@ -1,32 +1,38 @@
 import {Component, Input, OnInit} from '@angular/core';
-
 import {Apartman, BuildingModel} from '../../model/building.model';
+import {ImagePreviewComponent} from "../image-preview/image-preview.component";
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
-
-	selector: 'app-reserve-apartman',
-	templateUrl: './reserve-apartman.component.html',
-	styleUrls: ['./reserve-apartman.component.scss'],
-
+  selector: 'app-reserve-apartman',
+  templateUrl: './reserve-apartman.component.html',
+  styleUrls: ['./reserve-apartman.component.scss'],
 })
 
-export class ReserveApartmanComponent implements OnInit
-{
-	@Input() apartment: Apartman;
-	@Input() activeBuilding: BuildingModel;
+export class ReserveApartmanComponent implements OnInit {
+  @Input() apartment: Apartman;
+  @Input() activeBuilding: BuildingModel;
+  @Input() activeFloor;
+  text: string = "Duplex";
 
-	@Input() activeFloor;
+  constructor(public dialog: MatDialog) {
+  }
 
-	text:string="Duplex";
-
-	constructor() {
-
-	}
-
-	ngOnInit(): void
-	{
-		this.activeFloor = localStorage.getItem('activeFloorId');
+  ngOnInit(): void {
+    this.activeFloor = localStorage.getItem('activeFloorId');
     setTimeout(() => {
-    },2000);
-	}
+    }, 2000);
+  }
+
+  openDialog(slika: any): void {
+    console.log('slika', '../../../../assets/img/' + slika);
+    const dialogRef = this.dialog.open(ImagePreviewComponent, {
+      data: {slika: slika},
+      backdropClass: 'modal-backdrop-class'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
 }
