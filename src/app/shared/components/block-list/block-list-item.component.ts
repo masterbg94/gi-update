@@ -27,9 +27,7 @@ export class BlockListItemComponent implements OnInit {
   }
 
   ngOnInit() {
-
-    this.buildingService.getAllBuildings()
-      .subscribe((buildings: BuildingModel[]) => {
+    this.buildingService.getAllBuildings().subscribe((buildings: BuildingModel[]) => {
 
         // Get building
         // Filter zato sto ide prikaz samo prodatih objekata
