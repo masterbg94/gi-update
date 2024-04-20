@@ -9,7 +9,6 @@ import {EquipmentService} from '../../../shared/services/equipment.service';
 import {FloorService} from '../../../shared/services/floor.service';
 
 @Component({
-	moduleId:    module.id,
 	templateUrl: './apartman-detail.component.html',
 	styleUrls:   ['./apartman-detail.component.scss'],
 	providers:[

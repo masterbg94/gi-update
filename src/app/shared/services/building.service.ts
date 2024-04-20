@@ -9,8 +9,8 @@ export class BuildingService{
 
 	constructor(private http: HttpClient) {}
 
-	getAllBuildings(): Observable<any>{
-		return this.http.get( `${API_BASE}/buildings`);
+	getAllBuildings(): Observable<BuildingModel[]>{
+		return this.http.get<BuildingModel[]>( `${API_BASE}/buildings`);
 	}
 
 	getBuildingById(buildingId:number): Observable<any>{

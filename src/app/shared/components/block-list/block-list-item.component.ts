@@ -5,42 +5,43 @@ import {ImageService} from '../../services/image.service';
 
 @Component({
 
-    selector: 'app-block-list-item',
-    templateUrl: './block-list-item.component.html',
-    styleUrls: ['./block-list-item.component.scss'],
-	providers: [
-		BuildingService,
-		ImageService
-	]
+  selector: 'app-block-list-item',
+  templateUrl: './block-list-item.component.html',
+  styleUrls: ['./block-list-item.component.scss'],
+  providers: [
+    BuildingService,
+    ImageService
+  ]
 })
-export class BlockListItemComponent implements OnInit
-{
-	orderList;
-	buildings: BuildingModel[]=[];
-	building: BuildingModel;
+export class BlockListItemComponent implements OnInit {
+  orderList;
+  buildings: BuildingModel[] = [];
+  building: BuildingModel;
 
-	@Input('title') title: string;
+  @Input('title') title: string;
 
-    constructor(
-    	private buildingService: BuildingService,
-		private imageService: ImageService
-	) {}
+  constructor(
+    private buildingService: BuildingService,
+    private imageService: ImageService
+  ) {
+  }
 
-	ngOnInit() {
+  ngOnInit() {
 
-		this.buildingService.getAllBuildings()
-			.subscribe((buildings: BuildingModel[]) => {
+    this.buildingService.getAllBuildings()
+      .subscribe((buildings: BuildingModel[]) => {
 
-				// Get building
+        // Get building
         // Filter zato sto ide prikaz samo prodatih objekata
-				this.buildings = buildings.filter(x => x.sold);
+        this.buildings = buildings.filter(x => x.sold);
 
-				this.buildings.forEach((building: BuildingModel) => {
-					this.imageService
-						.getImagesForBuilding(building.id)
-						.subscribe((images: Image[]) => building.images = images);
-				});
-			});
+        this.buildings.forEach((building: BuildingModel) => {
+          this.imageService
+            .getImagesForBuilding(building.id)
+            .subscribe((images: Image[]) => building.images = images);
+          console.log('images', building)
+        });
+      });
 
-	}
+  }
 }

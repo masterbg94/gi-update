@@ -1,38 +1,24 @@
-<!--<ngbox></ngbox>-->
-<div class="block-list-item"  *ngFor="let b of buildings | sortPipe:orderList;"  [class.hidden]="!b.block">
-
-	<h1 >{{b.name | translate}}</h1>
-
-	<div class="img">
-		<img [src]="'../../../../assets/img/' + b.mainImage + '.png' ">
-	</div>
-
-	<div class="details">
-		<div class="location">{{b.city | translate}}</div>
-		<div class="completed">{{'FinishedYear' | translate}} {{b.finished}}. {{'Year' | translate}}</div>
-		<div class="reg-title">{{'UsePermit' | translate}}</div>
-		<div class="reg-number">{{b.contract}}</div>
-		<div
-			[class.sold]="b.soldOut === 'RASPRODATO'"
-			[class.free]="b.soldOut === 'SLOBODNO'">
-			{{b.soldOut | translate}}
-		</div>
-	</div>
-
-	<!--<a class="btn btn-dark" *ngIf="!b.sold" routerLink="../../objekat/8" style="text-decoration: none;">-->
-		<!--{{'Detail' | translate}}-->
-	<!--</a>-->
-
-	<a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative">
-		<!--<div
-			*ngFor="let image of b.images;" ng-box
-			[group]="b.id" [src]="'../../../../assets/img/' + image.name"
-			[image]="true"
-			style="z-index: 1000000;cursor: pointer;transition: 0.2s;height: 100%;width: 100%;
-				position: absolute;top:0;left: 0">
-		</div>-->
-		{{'Photos' | translate}}
-	</a>
+<div class="block-list-item"
+     *ngFor="let b of buildings | sortPipe:orderList;"
+     [class.hidden]="!b.block">
+  <h1>{{b.name | translate}}</h1>
+  <div class="img">
+    <img [src]="'../../../../assets/img/' + b.mainImage + '.png' " width="120" height="120">
+  </div>
+  <div class="details">
+    <div class="location">{{b.city | translate}}</div>
+    <div class="completed">{{'FinishedYear' | translate}} {{b.finished}}. {{'Year' | translate}}</div>
+    <div class="reg-title">{{'UsePermit' | translate}}</div>
+    <div class="reg-number">{{b.contract}}</div>
+    <div
+      [class.sold]="b.soldOut === 'RASPRODATO'"
+      [class.free]="b.soldOut === 'SLOBODNO'">
+      {{b.soldOut | translate}}
+    </div>
+  </div>
+  <a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative">
+    {{'Photos' | translate}}
+  </a>
 </div>
 
 

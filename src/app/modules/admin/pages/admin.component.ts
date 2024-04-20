@@ -7,7 +7,6 @@ import {ApartmentService} from '../../../shared/services/apartment.service';
 import {Apartman} from '../../../shared/model/building.model';
 
 @Component({
-	moduleId:module.id,
 	selector:'app-admin',
 	templateUrl:'./admin.component.html',
 	styleUrls:['./admin.component.scss'],

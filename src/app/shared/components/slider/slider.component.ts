@@ -44,7 +44,6 @@ export class SliderComponent implements AfterViewInit, OnInit {
 
   ngOnInit() {
     this.screenWidth = window.innerWidth;
-    console.log('this.screenWidth', this.screenWidth);
     this.translate.onLangChange.subscribe(() => {
       this.Slide(0);
     });

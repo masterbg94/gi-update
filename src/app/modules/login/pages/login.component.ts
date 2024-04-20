@@ -4,7 +4,6 @@ import {AuthService} from '../../../shared/services/auth.service';
 import {Observable} from 'rxjs';
 
 @Component({
-	moduleId:module.id,
 	selector:'app-login',
 	templateUrl:'./login.component.html',
 	styleUrls:['login.component.scss'],

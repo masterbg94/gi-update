@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  moduleId: module.id,
   templateUrl: './onama.component.html',
   styleUrls: ['./onama.component.scss']
 })
