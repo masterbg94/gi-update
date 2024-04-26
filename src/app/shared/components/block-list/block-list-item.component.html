@@ -16,7 +16,7 @@
       {{b.soldOut | translate}}
     </div>
   </div>
-  <a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative">
+  <a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative" (click)="openModal(301, 0)">
     {{'Photos' | translate}}
   </a>
 </div>
