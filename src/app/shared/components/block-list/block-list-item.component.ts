@@ -48,18 +48,14 @@ export class BlockListItemComponent implements OnInit {
       // Get building
       // Filter zato sto ide prikaz samo prodatih objekata
       this.buildings = buildings.filter(x => x.sold);
-      console.log('this.buildings', this.buildings)
 
       this.buildings.forEach((building: BuildingModel) => {
         this.imageService
           .getImagesForBuilding(building.id)
           .subscribe((images: Imidz[]) => {
             building.images = images
-            // console.log('images', building)
-
           });
       });
-      console.log('images', this.images)
     });
   }
 
@@ -68,16 +64,13 @@ export class BlockListItemComponent implements OnInit {
     for (let image of building.images) {
       this.images.push(new Image(image.id, {img: image.name}))
     }
-    console.log('this.images', this.images);
   }
 
   mapImagesForGallery(building:any) {
     this.images = [];
-    console.log('mapImagesForGallery this.images', this.images );
     building.images.forEach((image, index) => {
       this.images.push(new Image(index, {img: 'assets/img/' + image.name}));
     });
-    console.log('mapImagesForGallery END', this.images );
   }
 
 

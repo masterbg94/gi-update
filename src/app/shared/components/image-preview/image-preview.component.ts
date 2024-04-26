@@ -17,6 +17,5 @@ export class ImagePreviewComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    console.log('input data', this.data);
   }
 }

@@ -25,14 +25,12 @@ export class ReserveApartmanComponent implements OnInit {
   }
 
   openDialog(slika: any): void {
-    console.log('slika', '../../../../assets/img/' + slika);
     const dialogRef = this.dialog.open(ImagePreviewComponent, {
       data: {slika: slika},
       backdropClass: 'modal-backdrop-class'
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
     });
   }
 }
