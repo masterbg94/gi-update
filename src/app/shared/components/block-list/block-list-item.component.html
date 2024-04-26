@@ -1,5 +1,5 @@
 <div class="block-list-item"
-     *ngFor="let b of buildings | sortPipe:orderList;"
+     *ngFor="let b of buildings | sortPipe:orderList;let i = index"
      [class.hidden]="!b.block">
   <h1>{{b.name | translate}}</h1>
   <div class="img">
@@ -16,7 +16,7 @@
       {{b.soldOut | translate}}
     </div>
   </div>
-  <a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative" (click)="openModal(301, 0)">
+  <a class="btn btn-dark" *ngIf="b.block" style="z-index: 0;position: relative" (click)="openModal(1, 0, b)">
     {{'Photos' | translate}}
   </a>
 </div>

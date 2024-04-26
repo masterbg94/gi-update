@@ -68,8 +68,13 @@ html, body {
 }
 
 .modal-backdrop-class {
-  opacity: 0.8!important;
+  opacity: 0.8 !important;
   background: rgba(0, 0, 0);
+}
+
+// KS89 gallery backdrop class
+#modal-gallery-wrapper {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .outerContainer.ng-tns-c11-0.ng-trigger.ng-trigger-showViewerTransition {
