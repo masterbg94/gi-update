@@ -4,6 +4,7 @@ import {RouterModule} from '@angular/router';
 
 import {BuildingComponent} from './building.component';
 import {TranslateModule} from "@ngx-translate/core";
+import {MatDialogModule} from "@angular/material/dialog";
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import {TranslateModule} from "@ngx-translate/core";
 		CommonModule,
 		RouterModule,
 		TranslateModule,
+    MatDialogModule
 	],
 	exports: [
 		BuildingComponent,

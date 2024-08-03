@@ -13,6 +13,8 @@ import {GarageService} from '../../services/garage.service';
 
 import {Apartman, BuildingModel, Equipment, Floor} from '../../model/building.model';
 import {NavigationEnd, Router} from '@angular/router';
+import {ImagePreviewComponent} from "../image-preview/image-preview.component";
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
 
@@ -45,6 +47,7 @@ export class BuildingComponent implements OnInit {
     private detector: ChangeDetectorRef,
     private router: Router,
     public garageService: GarageService,
+    public dialog: MatDialog
   ) {
     this.router.events.subscribe(re => {
       if (re instanceof NavigationEnd) {
@@ -208,5 +211,21 @@ export class BuildingComponent implements OnInit {
 
   _detectChanges(): void {
     this.detector.detectChanges()
+  }
+
+  openImage(leonardoZgrada:number,slika:any){
+    let slikaGaraze = null;
+    if (leonardoZgrada == 7) {
+      slikaGaraze = 'leonardo7/garaza/' + slika
+    } else if(leonardoZgrada == 8) {
+      slikaGaraze = 'leonardo8/garaze/' + slika
+    }
+    const dialogRef = this.dialog.open(ImagePreviewComponent, {
+      data: {slika: slikaGaraze},
+      backdropClass: 'modal-backdrop-class'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+    });
   }
 }

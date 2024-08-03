@@ -3,6 +3,7 @@ import {BuildingService} from '../../services/building.service';
 import {BuildingModel, Image as Imidz} from '../../model/building.model';
 import {ImageService} from '../../services/image.service';
 import {ModalGalleryConfig, ModalGalleryRef, ModalGalleryService, Image} from "@ks89/angular-modal-gallery";
+import {take} from "rxjs";
 
 @Component({
 
@@ -43,7 +44,9 @@ export class BlockListItemComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.buildingService.getAllBuildings().subscribe((buildings: BuildingModel[]) => {
+    this.buildingService.getAllBuildings()
+      .pipe(take(1))
+      .subscribe((buildings: BuildingModel[]) => {
 
       // Get building
       // Filter zato sto ide prikaz samo prodatih objekata

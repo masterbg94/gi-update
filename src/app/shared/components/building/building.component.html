@@ -80,11 +80,15 @@
                   {{garage.status}}
 							</td>
               <td *ngIf="activeBuilding?.id==12">
-                <div *ngIf="garage" ng-box  [src]="'../../../../assets/img/leonardo7/garaza/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;;">
+                <div *ngIf="garage" ng-box
+                     (click)="openImage(7,garage.imgHailight)"
+                     [src]="'../../../../assets/img/leonardo7/garaza/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;">
                   <i class="fa fa-chevron-right back-button"></i></div>
               </td>
               <td *ngIf="activeBuilding?.id==13">
-                <div *ngIf="garage" ng-box  [src]="'../../../../assets/img/leonardo8/garaze/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;;">
+                <div *ngIf="garage" ng-box
+                     (click)="openImage(8,garage.imgHailight)"
+                     [src]="'../../../../assets/img/leonardo8/garaze/' + garage.imgHailight" [image]="true" [cache]="true"   [style.display.none]="title"   style="z-index: 200;cursor: pointer;transition: 0.2s;">
                <i class="fa fa-chevron-right back-button"></i></div>
               </td>
               <td>
