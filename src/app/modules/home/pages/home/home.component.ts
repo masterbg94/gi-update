@@ -6,5 +6,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  leonardo7Heading:string = 'gallery2/slika3.jpg';
+  leonardo7Heading:string = 'gallery2/slika3.png';
 }
