@@ -6,7 +6,7 @@
   flex-grow: 1;
   position: relative;
   cursor: default;
-//  new fix
+  //  new fix
   flex-wrap: wrap;
 }
 
@@ -19,7 +19,7 @@
   width: 23%;
   position: relative;
   box-shadow: 0 5px 10px rgba(#000, .25);
-	margin: 10px;
+  margin: 10px 10px 20px;
 
   transition: transform .2s;
 
@@ -46,7 +46,7 @@
     font-size: 20px;
     //font-weight: 100;
     text-align: center;
-	  text-transform: uppercase;
+    text-transform: uppercase;
   }
 
   .img {
@@ -84,67 +84,71 @@
 }
 
 .sold {
-	color: #e77832;
-	font-size: 20px;
-	font-weight: 400;
-	padding-top: 10px;
+  color: #e77832;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
 }
 
 .free {
-	color: #27a32c;
-	font-size: 20px;
-	font-weight: 400;
-	padding-top: 10px;
+  color: #27a32c;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
 }
+
 .hidden {
-	display: none;
+  display: none;
 }
-::ng-deep{
-  ngbox{
-    .right,.left{
-      width: 60px!important;
-      height: 60px!important;
+
+::ng-deep {
+  ngbox {
+    .right, .left {
+      width: 60px !important;
+      height: 60px !important;
     }
   }
 }
-@media screen and (max-width: 993px){
-	.block-list-item{
-		margin-top: 20px;
-		display: flex;
-		max-width: 100%;
-		align-self: center;
-		transition: none;
-		&:hover {
-			transform: none;
 
-		}
-	}
-	:host {
-		flex-direction: column;
-	}
-	.hidden {
-		display: none;
-	}
-	h1 {
-		font-weight: 400 !important;
-	}
+@media screen and (max-width: 993px) {
+  .block-list-item {
+    margin-top: 20px;
+    display: flex;
+    max-width: 100%;
+    align-self: center;
+    transition: none;
+
+    &:hover {
+      transform: none;
+
+    }
+  }
+  :host {
+    flex-direction: column;
+  }
+  .hidden {
+    display: none;
+  }
+  h1 {
+    font-weight: 400 !important;
+  }
 
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px){
-  .block-list-item{
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .block-list-item {
     width: calc(50% - 40px);
   }
 }
 
 @media screen and (max-width: 992px) {
-  .block-list-item{
+  .block-list-item {
     width: 100%
   }
 }
 
 @media screen and (max-width: 992px) {
-  .block-list-item{
+  .block-list-item {
     margin: 10px 0 0 0;
   }
 }

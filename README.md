@@ -1,4 +1,4 @@
-# GiNew
+# Gold Invest - Updated angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
 
@@ -30,3 +30,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 https://ks89.github.io/angular-modal-gallery-2023-v11.github.io/getting-started \
 https://github.com/Ks89/angular-modal-gallery/tree/master \
+
+## Galleries
+### Gallery Leonardo 6 
+- img path: "assets/img/gallery/data.json" 
+- component: <app-gallery-gold>
+### Gallery Leonardo 7 
+- img path: "assets/img/gallery2/data.json" 
+- component: <app-gallery2-gold>
+### Gallery Leonardo 8 
+- img path: "assets/img/gallery8/data.json" 
+- component: <app-gallery8-gold>

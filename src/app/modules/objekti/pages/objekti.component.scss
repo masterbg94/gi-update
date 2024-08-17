@@ -1,25 +1,50 @@
 @import "../../../style/palette";
 
 .container {
-	width: 100%;
-	height: 350px;
-	padding: 0;
-	margin: 0;
-//  FIXED MAX WIDTH IN NEW VERSION
+  width: 100%;
+  //height: 350px;
+  padding: 0;
+  margin: 0;
+  //  FIXED MAX WIDTH IN NEW VERSION
   max-width: 100%;
+  @media screen and (max-width: 767px) {
+    app-google-map {
+      display: flex;
+      height: 400px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    app-google-map {
+      display: flex;
+      height: 460px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    app-google-map {
+      display: flex;
+      height: 600px;
+    }
+  }
+  @media screen and (min-width: 1920px) {
+    app-google-map {
+      display: flex;
+      height: 800px;
+    }
+  }
 }
 
 .block {
-	h1 {
-		font-family: Roboto, sans-serif;
-		font-weight: 300;
-		color: $gi-black;
-		font-size: 20px;
-		padding: 40px 0 20px 15px;
+  h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: $gi-black;
+    font-size: 20px;
+    padding: 40px 0 20px 15px;
 
-	}
-	max-width: 1200px;
-	margin: auto;
-	display: block;
-	padding: 20px 0;
+  }
+
+  max-width: 1200px;
+  margin: auto;
+  display: block;
+  padding: 20px 0;
 }

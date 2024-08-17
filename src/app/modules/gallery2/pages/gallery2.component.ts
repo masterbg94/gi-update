@@ -7,5 +7,5 @@ import {Component} from '@angular/core';
 })
 export class Gallery2Component {
   public show = true;
-  img = '../../../../assets/img/leonardo7.png';
+  img = '../../../../assets/img/leonardo7-real.png';
 }
