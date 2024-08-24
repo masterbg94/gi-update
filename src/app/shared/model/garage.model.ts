@@ -6,5 +6,6 @@ export class GarageModel {
   area: number;
   status: string;
   number?:number;
-  garageNumber?:number;
+  garageNumber?:number|null;
+  orientation?: string|null;
 }

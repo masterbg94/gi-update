@@ -4,9 +4,9 @@ import {
   Component,
   EventEmitter,
   Injectable,
-  Input,
+  Input, OnChanges,
   OnInit,
-  Output
+  Output, SimpleChanges
 } from '@angular/core';
 import {GarageModel} from '../../model/garage.model';
 import {GarageService} from '../../services/garage.service';
@@ -27,7 +27,7 @@ import {MatDialog} from "@angular/material/dialog";
   // changeDetection: ChangeDetectionStrategy.OnPush
 })
 @Injectable()
-export class BuildingComponent implements OnInit {
+export class BuildingComponent implements OnInit, OnChanges {
   @Input() public garages: GarageModel[] = [];
   @Input() public isGarage: boolean;
   public objectRoute: any;
@@ -62,6 +62,10 @@ export class BuildingComponent implements OnInit {
   ngOnInit() {
     this.floorName.emit(this.activeFloor);
     this.setActive(this.activeFloor);
+    this.setSeparatedGarages()
+  }
+
+  setSeparatedGarages() {
     if (this.garages && this.garages[0]?.garageNumber) {
       this.separatedGarage1 = this.garages.filter(x => x.garageNumber == 1);
       this.separatedGarage2 = this.garages.filter(x => x.garageNumber == 2);
@@ -213,11 +217,11 @@ export class BuildingComponent implements OnInit {
     this.detector.detectChanges()
   }
 
-  openImage(leonardoZgrada:number,slika:any){
+  openImage(leonardoZgrada: number, slika: any) {
     let slikaGaraze = null;
     if (leonardoZgrada == 7) {
       slikaGaraze = 'leonardo7/garaza/' + slika
-    } else if(leonardoZgrada == 8) {
+    } else if (leonardoZgrada == 8) {
       slikaGaraze = 'leonardo8/garaze/' + slika
     }
     const dialogRef = this.dialog.open(ImagePreviewComponent, {
@@ -227,5 +231,11 @@ export class BuildingComponent implements OnInit {
 
     dialogRef.afterClosed().subscribe(result => {
     });
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes.garages) {
+      this.setSeparatedGarages()
+    }
   }
 }

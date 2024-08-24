@@ -60,13 +60,13 @@
                   "maximumError": "10kb"
                 }
               ],
-              "outputHashing": "all",
-              "buildOptimizer": true,
-              "optimization": true,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true,
+              "outputHashing": "all",  // Enable hashing for all outputs
+              "buildOptimizer": true,   // Enable build optimizer for tree-shaking
+              "optimization": true,    // Enable optimizations (tree-shaking, minification)
+              "vendorChunk": true,     // Create a separate vendor chunk for third-party libraries
+              "extractLicenses": true,  // Extract license information for easier dependency management
+              "sourceMap": false,     // Disable source maps in production for smaller bundle size
+              "namedChunks": false,    // Disable named chunks for smaller bundle size
               "aot": true,
               "fileReplacements": [
                 {

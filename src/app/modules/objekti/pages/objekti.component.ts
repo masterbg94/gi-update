@@ -1,6 +1,6 @@
 import {ChangeDetectorRef, Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import {Observable, Subscription} from 'rxjs';
+import {Subject, takeUntil} from 'rxjs';
 import {GarageModel} from '../../../shared/model/garage.model';
 import {GarageService} from '../../../shared/services/garage.service';
 
@@ -29,20 +29,20 @@ export class ObjektiComponent implements OnInit, OnDestroy {
   floors: Floor;
   isGarage: boolean;
   buildingId: number;
-  garages: any[];
+  garages: GarageModel[];
   active: Floor;
   buildings: BuildingModel[];
   activeBuilding: BuildingModel;
   buildingIsReady = false;
   floorApartment: Apartman[];
   equipment = [];
-  subscription: Subscription;
   text: string;
   address: string;
   city: string;
   available: number;
   reserved: number;
   a: number;
+  destroyed$ = new Subject<void>();
 
 
   constructor(private route: ActivatedRoute,
@@ -56,10 +56,10 @@ export class ObjektiComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.buildingService
-      .getAllBuildings()
+      .getAllBuildings().pipe(takeUntil(this.destroyed$))
       .subscribe(buildings => this.buildings = buildings);
 
-    this.route.params.subscribe(params => {
+    this.route.params.pipe(takeUntil(this.destroyed$)).subscribe(params => {
       this.getBuilding(params['id']);
       this.buildingId = params['id'];
       this.availableApartments = 0;
@@ -69,28 +69,30 @@ export class ObjektiComponent implements OnInit, OnDestroy {
 
   private getBuilding(buildingId: number): void {
     this.buildingService
-      .getBuildingById(buildingId)
+      .getBuildingById(buildingId).pipe(takeUntil(this.destroyed$))
       .subscribe(building => {
         this.activeBuilding = building;
         this.getBuildingFloors();
         this.avaiableAptartman(this.activeBuilding);
         this.getBuildingEquipment(this.activeBuilding.id);
-        this.subscription = this.garageService.getAllGaragesByBuildingId(this.buildingId).subscribe(
+        this.garageService.getAllGaragesByBuildingId(this.buildingId).pipe(takeUntil(this.destroyed$)).subscribe(
           (garages: any[]) => {
             this.garages = garages
           }
-      );
+        );
       });
     this._changeDetetcion();
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe();
+    this.destroyed$.next();
+    this.destroyed$.complete();
   }
 
   private getBuildingFloors(): void {
     this.floorService
       .getBuildingFloors(this.buildingId)
+      .pipe(takeUntil(this.destroyed$))
       .subscribe((floors: Floor[]) => {
         this.activeBuilding.floors = floors;
         this.active = floors[0];
@@ -121,7 +123,7 @@ export class ObjektiComponent implements OnInit, OnDestroy {
 
 
     this.apartmentService
-      .getAvailableApartmentsByBuilding(this.buildingId)
+      .getAvailableApartmentsByBuilding(this.buildingId).pipe(takeUntil(this.destroyed$))
       .subscribe((apartments: Apartman[]) => {
         this.building = building;
         building.apartment = apartments;
@@ -136,7 +138,7 @@ export class ObjektiComponent implements OnInit, OnDestroy {
 
   getBuildingEquipment(buildingId: number) {
     this.equipmentService
-      .getEquipmentByBuildingId(this.buildingId)
+      .getEquipmentByBuildingId(this.buildingId).pipe(takeUntil(this.destroyed$))
       .subscribe((equipment: Equipment[]) => {
         this.equipment = equipment;
       });

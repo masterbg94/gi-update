@@ -1,5 +1,5 @@
 <div class="block-list-item"
-     *ngFor="let b of buildings | sortPipe:orderList;let i = index"
+     *ngFor="let b of buildings | sortPipe;let i = index"
      [class.hidden]="!b.block">
   <h1>{{b.name | translate}}</h1>
   <div class="img">

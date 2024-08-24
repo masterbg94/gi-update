@@ -4,6 +4,7 @@ import {BuildingModel, Location} from '../../model/building.model';
 import {BuildingService} from '../../services/building.service';
 import {LocationService} from '../../services/location.service';
 import {MapInfoWindow, MapMarker} from "@angular/google-maps";
+import {take} from "rxjs";
 
 @Component({
   selector: 'app-google-map',
@@ -64,7 +65,7 @@ export class GoogleMapComponent implements OnInit {
       return;
     } else {
       // TODO : First test is @isContact value
-      this.locationService.getLocationByBuildingId(this.buildingId).subscribe((location: any) => {
+      this.locationService.getLocationByBuildingId(this.buildingId).pipe(take(1)).subscribe((location: any) => {
         this.location = location;
         this.center = {lat: Number(location[0]?.lat), lng: Number(location[0]?.lng)}
         this.options.center = this.center;

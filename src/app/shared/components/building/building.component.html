@@ -14,6 +14,7 @@
 							{{ getAvailableApartments(floor) }}
 						</span>
 					</li>
+          <!--          GARAZA 7-->
           <li
             [class.active]="garageService.isGarage"
             (click)="getGarages()"
@@ -34,6 +35,7 @@
 							{{getAvailableGarage(activeBuilding)}}
 						</span>
           </li>-->
+          <!--          GARAZA 8-1-->
           <li
             [class.active]="garageService.isGarage && activeGarageNumber==1"
             (click)="getGarages(1)"
@@ -44,7 +46,7 @@
 							{{getAvailableGarage(activeBuilding,1)}}
 						</span>
           </li>
-
+          <!--          GARAZA 8-2-->
           <li
             [class.active]="garageService.isGarage && activeGarageNumber==2"
             (click)="getGarages(2)"
