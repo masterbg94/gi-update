@@ -5,6 +5,7 @@
     {
       "name": "app",
       "installMode": "prefetch",
+      "updateMode": "prefetch",
       "resources": {
         "files": [
           "/favicon.ico",
@@ -24,6 +25,18 @@
           "/assets/**",
           "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-call",
+      "urls": ["https://api.goldinvestgradnja.com/**"],
+      "cacheConfig": {
+        "maxAge": "12h",
+        "maxSize": 50,
+        "strategy": "performance",
+        "timeout": "10s"
       }
     }
   ]

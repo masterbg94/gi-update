@@ -16,12 +16,12 @@ import {TranslateService} from "@ngx-translate/core";
 export class SliderComponent implements AfterViewInit, OnInit {
   slides: SliderItemComponent[] = [];
   activeSlide = 0;
-  background: string;
-  switching = false;
-  showTitle = true;
-  showSubTitle = true;
-  showDescription = true;
-  showButton = true;
+  background: string = "slider1.jpg";
+  switching:boolean = false;
+  showTitle:boolean = true;
+  showSubTitle:boolean = true;
+  showDescription:boolean = true;
+  showButton:boolean = true;
   screenWidth: any;
 
   @ContentChildren(SliderItemComponent) slidesQuery: QueryList<SliderItemComponent> | undefined;
